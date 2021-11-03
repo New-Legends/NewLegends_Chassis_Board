@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Classis_Board"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/Robomaster/Chassis_Board/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Robomaster/Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Robomaster/Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Robomaster/Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Robomaster/Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Classis_Board.elf">
+				<Option output="E:/Robomaster/Chassis_Board/cmake-build-debug/Classis_Board.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Robomaster/Chassis_Board/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="E:/Robomaster/Chassis_Board/Inc"/>
+					<Add directory="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="E:/Robomaster/Chassis_Board/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="E:/Robomaster/Chassis_Board/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="E:/Robomaster/Chassis_Board/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="E:/Robomaster/Chassis_Board/Drivers/CMSIS/Include"/>
+					<Add directory="E:/Robomaster/Chassis_Board/APP"/>
+					<Add directory="E:/Robomaster/Chassis_Board/hardware"/>
+					<Add directory="E:/Robomaster/Chassis_Board/module"/>
+					<Add directory="E:/Robomaster/Chassis_Board/filter"/>
+					<Add directory="E:/Robomaster/Chassis_Board/components/algorithm/Include"/>
+					<Add directory="E:/Robomaster/Chassis_Board/components/algorithm"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Robomaster/Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 Classis_Board.elf"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Robomaster/Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Robomaster/Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Robomaster/Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Classis_Board.elf/fast">
+				<Option output="E:/Robomaster/Chassis_Board/cmake-build-debug/Classis_Board.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Robomaster/Chassis_Board/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="E:/Robomaster/Chassis_Board/Inc"/>
+					<Add directory="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="E:/Robomaster/Chassis_Board/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="E:/Robomaster/Chassis_Board/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="E:/Robomaster/Chassis_Board/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="E:/Robomaster/Chassis_Board/Drivers/CMSIS/Include"/>
+					<Add directory="E:/Robomaster/Chassis_Board/APP"/>
+					<Add directory="E:/Robomaster/Chassis_Board/hardware"/>
+					<Add directory="E:/Robomaster/Chassis_Board/module"/>
+					<Add directory="E:/Robomaster/Chassis_Board/filter"/>
+					<Add directory="E:/Robomaster/Chassis_Board/components/algorithm/Include"/>
+					<Add directory="E:/Robomaster/Chassis_Board/components/algorithm"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Robomaster/Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 Classis_Board.elf/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Robomaster/Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Robomaster/Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Robomaster/Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/Robomaster/Chassis_Board/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Robomaster/Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Robomaster/Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Robomaster/Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Robomaster/Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/Robomaster/Chassis_Board/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Robomaster/Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Robomaster/Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Robomaster/Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Robomaster/Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/Robomaster/Chassis_Board/APP/CAN_receive.cpp">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/APP/CAN_receive.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/APP/System_Config.cpp">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/APP/System_Config.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/APP/chassis_task.cpp">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/APP/chassis_task.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/APP/struct_typedef.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_crc.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/STM32F407IGHx_FLASH.ld">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Src/adc.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Src/can.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Src/crc.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Src/dma.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Src/freertos.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Src/gpio.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Src/i2c.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Src/main.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Src/rng.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Src/rtc.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Src/spi.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Src/stm32f4xx_hal_msp.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Src/stm32f4xx_it.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Src/syscalls.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Src/system_stm32f4xx.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Src/tim.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Src/usart.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Src/usb_device.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Src/usbd_cdc_if.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Src/usbd_conf.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/Src/usbd_desc.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/hardware/bsp_can.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/hardware/bsp_can.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/hardware/bsp_usart.cpp">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/hardware/bsp_usart.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/hardware/buzzer.cpp">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/hardware/buzzer.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/hardware/led.cpp">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/hardware/led.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/M_Chassis.cpp">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/M_Chassis.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/first_order_filter.cpp">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/first_order_filter.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/motor_3508.cpp">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/motor_3508.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/motor_6020.cpp">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/motor_6020.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/motor_measure.cpp">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/motor_measure.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/pid.cpp">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/pid.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/remote_control.cpp">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/remote_control.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/remote_data.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/remote_data.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/user_lib.cpp">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/user_lib.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/startup/startup_stm32f407xx.s">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
