@@ -222,6 +222,33 @@ APP/chassis_task.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/APP/chassis_task.cpp.s
 .PHONY : APP/chassis_task.cpp.s
 
+APP/referee_task.obj: APP/referee_task.c.obj
+
+.PHONY : APP/referee_task.obj
+
+# target to build an object file
+APP/referee_task.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/APP/referee_task.c.obj
+.PHONY : APP/referee_task.c.obj
+
+APP/referee_task.i: APP/referee_task.c.i
+
+.PHONY : APP/referee_task.i
+
+# target to preprocess a source file
+APP/referee_task.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/APP/referee_task.c.i
+.PHONY : APP/referee_task.c.i
+
+APP/referee_task.s: APP/referee_task.c.s
+
+.PHONY : APP/referee_task.s
+
+# target to generate assembly for a file
+APP/referee_task.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/APP/referee_task.c.s
+.PHONY : APP/referee_task.c.s
+
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj
@@ -1977,86 +2004,86 @@ hardware/bsp_can.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/hardware/bsp_can.c.s
 .PHONY : hardware/bsp_can.c.s
 
-hardware/bsp_usart.obj: hardware/bsp_usart.cpp.obj
+hardware/bsp_usart.obj: hardware/bsp_usart.c.obj
 
 .PHONY : hardware/bsp_usart.obj
 
 # target to build an object file
-hardware/bsp_usart.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/hardware/bsp_usart.cpp.obj
-.PHONY : hardware/bsp_usart.cpp.obj
+hardware/bsp_usart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/hardware/bsp_usart.c.obj
+.PHONY : hardware/bsp_usart.c.obj
 
-hardware/bsp_usart.i: hardware/bsp_usart.cpp.i
+hardware/bsp_usart.i: hardware/bsp_usart.c.i
 
 .PHONY : hardware/bsp_usart.i
 
 # target to preprocess a source file
-hardware/bsp_usart.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/hardware/bsp_usart.cpp.i
-.PHONY : hardware/bsp_usart.cpp.i
+hardware/bsp_usart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/hardware/bsp_usart.c.i
+.PHONY : hardware/bsp_usart.c.i
 
-hardware/bsp_usart.s: hardware/bsp_usart.cpp.s
+hardware/bsp_usart.s: hardware/bsp_usart.c.s
 
 .PHONY : hardware/bsp_usart.s
 
 # target to generate assembly for a file
-hardware/bsp_usart.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/hardware/bsp_usart.cpp.s
-.PHONY : hardware/bsp_usart.cpp.s
+hardware/bsp_usart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/hardware/bsp_usart.c.s
+.PHONY : hardware/bsp_usart.c.s
 
-hardware/buzzer.obj: hardware/buzzer.cpp.obj
+hardware/buzzer.obj: hardware/buzzer.c.obj
 
 .PHONY : hardware/buzzer.obj
 
 # target to build an object file
-hardware/buzzer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/hardware/buzzer.cpp.obj
-.PHONY : hardware/buzzer.cpp.obj
+hardware/buzzer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/hardware/buzzer.c.obj
+.PHONY : hardware/buzzer.c.obj
 
-hardware/buzzer.i: hardware/buzzer.cpp.i
+hardware/buzzer.i: hardware/buzzer.c.i
 
 .PHONY : hardware/buzzer.i
 
 # target to preprocess a source file
-hardware/buzzer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/hardware/buzzer.cpp.i
-.PHONY : hardware/buzzer.cpp.i
+hardware/buzzer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/hardware/buzzer.c.i
+.PHONY : hardware/buzzer.c.i
 
-hardware/buzzer.s: hardware/buzzer.cpp.s
+hardware/buzzer.s: hardware/buzzer.c.s
 
 .PHONY : hardware/buzzer.s
 
 # target to generate assembly for a file
-hardware/buzzer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/hardware/buzzer.cpp.s
-.PHONY : hardware/buzzer.cpp.s
+hardware/buzzer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/hardware/buzzer.c.s
+.PHONY : hardware/buzzer.c.s
 
-hardware/led.obj: hardware/led.cpp.obj
+hardware/led.obj: hardware/led.c.obj
 
 .PHONY : hardware/led.obj
 
 # target to build an object file
-hardware/led.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/hardware/led.cpp.obj
-.PHONY : hardware/led.cpp.obj
+hardware/led.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/hardware/led.c.obj
+.PHONY : hardware/led.c.obj
 
-hardware/led.i: hardware/led.cpp.i
+hardware/led.i: hardware/led.c.i
 
 .PHONY : hardware/led.i
 
 # target to preprocess a source file
-hardware/led.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/hardware/led.cpp.i
-.PHONY : hardware/led.cpp.i
+hardware/led.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/hardware/led.c.i
+.PHONY : hardware/led.c.i
 
-hardware/led.s: hardware/led.cpp.s
+hardware/led.s: hardware/led.c.s
 
 .PHONY : hardware/led.s
 
 # target to generate assembly for a file
-hardware/led.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/hardware/led.cpp.s
-.PHONY : hardware/led.cpp.s
+hardware/led.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/hardware/led.c.s
+.PHONY : hardware/led.c.s
 
 module/M_Chassis.obj: module/M_Chassis.cpp.obj
 
@@ -2220,6 +2247,60 @@ module/pid.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/pid.cpp.s
 .PHONY : module/pid.cpp.s
 
+module/referee.obj: module/referee.cpp.obj
+
+.PHONY : module/referee.obj
+
+# target to build an object file
+module/referee.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/referee.cpp.obj
+.PHONY : module/referee.cpp.obj
+
+module/referee.i: module/referee.cpp.i
+
+.PHONY : module/referee.i
+
+# target to preprocess a source file
+module/referee.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/referee.cpp.i
+.PHONY : module/referee.cpp.i
+
+module/referee.s: module/referee.cpp.s
+
+.PHONY : module/referee.s
+
+# target to generate assembly for a file
+module/referee.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/referee.cpp.s
+.PHONY : module/referee.cpp.s
+
+module/referee_data.obj: module/referee_data.c.obj
+
+.PHONY : module/referee_data.obj
+
+# target to build an object file
+module/referee_data.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/referee_data.c.obj
+.PHONY : module/referee_data.c.obj
+
+module/referee_data.i: module/referee_data.c.i
+
+.PHONY : module/referee_data.i
+
+# target to preprocess a source file
+module/referee_data.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/referee_data.c.i
+.PHONY : module/referee_data.c.i
+
+module/referee_data.s: module/referee_data.c.s
+
+.PHONY : module/referee_data.s
+
+# target to generate assembly for a file
+module/referee_data.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/referee_data.c.s
+.PHONY : module/referee_data.c.s
+
 module/remote_control.obj: module/remote_control.cpp.obj
 
 .PHONY : module/remote_control.obj
@@ -2301,6 +2382,60 @@ module/user_lib.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/user_lib.cpp.s
 .PHONY : module/user_lib.cpp.s
 
+module/vision.obj: module/vision.cpp.obj
+
+.PHONY : module/vision.obj
+
+# target to build an object file
+module/vision.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/vision.cpp.obj
+.PHONY : module/vision.cpp.obj
+
+module/vision.i: module/vision.cpp.i
+
+.PHONY : module/vision.i
+
+# target to preprocess a source file
+module/vision.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/vision.cpp.i
+.PHONY : module/vision.cpp.i
+
+module/vision.s: module/vision.cpp.s
+
+.PHONY : module/vision.s
+
+# target to generate assembly for a file
+module/vision.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/vision.cpp.s
+.PHONY : module/vision.cpp.s
+
+module/vision_data.obj: module/vision_data.cpp.obj
+
+.PHONY : module/vision_data.obj
+
+# target to build an object file
+module/vision_data.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/vision_data.cpp.obj
+.PHONY : module/vision_data.cpp.obj
+
+module/vision_data.i: module/vision_data.cpp.i
+
+.PHONY : module/vision_data.i
+
+# target to preprocess a source file
+module/vision_data.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/vision_data.cpp.i
+.PHONY : module/vision_data.cpp.i
+
+module/vision_data.s: module/vision_data.cpp.s
+
+.PHONY : module/vision_data.s
+
+# target to generate assembly for a file
+module/vision_data.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/vision_data.cpp.s
+.PHONY : module/vision_data.cpp.s
+
 startup/startup_stm32f407xx.obj: startup/startup_stm32f407xx.s.obj
 
 .PHONY : startup/startup_stm32f407xx.obj
@@ -2309,6 +2444,87 @@ startup/startup_stm32f407xx.obj: startup/startup_stm32f407xx.s.obj
 startup/startup_stm32f407xx.s.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/startup/startup_stm32f407xx.s.obj
 .PHONY : startup/startup_stm32f407xx.s.obj
+
+support/CRC8_CRC16.obj: support/CRC8_CRC16.c.obj
+
+.PHONY : support/CRC8_CRC16.obj
+
+# target to build an object file
+support/CRC8_CRC16.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/support/CRC8_CRC16.c.obj
+.PHONY : support/CRC8_CRC16.c.obj
+
+support/CRC8_CRC16.i: support/CRC8_CRC16.c.i
+
+.PHONY : support/CRC8_CRC16.i
+
+# target to preprocess a source file
+support/CRC8_CRC16.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/support/CRC8_CRC16.c.i
+.PHONY : support/CRC8_CRC16.c.i
+
+support/CRC8_CRC16.s: support/CRC8_CRC16.c.s
+
+.PHONY : support/CRC8_CRC16.s
+
+# target to generate assembly for a file
+support/CRC8_CRC16.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/support/CRC8_CRC16.c.s
+.PHONY : support/CRC8_CRC16.c.s
+
+support/fifo.obj: support/fifo.c.obj
+
+.PHONY : support/fifo.obj
+
+# target to build an object file
+support/fifo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/support/fifo.c.obj
+.PHONY : support/fifo.c.obj
+
+support/fifo.i: support/fifo.c.i
+
+.PHONY : support/fifo.i
+
+# target to preprocess a source file
+support/fifo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/support/fifo.c.i
+.PHONY : support/fifo.c.i
+
+support/fifo.s: support/fifo.c.s
+
+.PHONY : support/fifo.s
+
+# target to generate assembly for a file
+support/fifo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/support/fifo.c.s
+.PHONY : support/fifo.c.s
+
+support/mem_mang4.obj: support/mem_mang4.c.obj
+
+.PHONY : support/mem_mang4.obj
+
+# target to build an object file
+support/mem_mang4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/support/mem_mang4.c.obj
+.PHONY : support/mem_mang4.c.obj
+
+support/mem_mang4.i: support/mem_mang4.c.i
+
+.PHONY : support/mem_mang4.i
+
+# target to preprocess a source file
+support/mem_mang4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/support/mem_mang4.c.i
+.PHONY : support/mem_mang4.c.i
+
+support/mem_mang4.s: support/mem_mang4.c.s
+
+.PHONY : support/mem_mang4.s
+
+# target to generate assembly for a file
+support/mem_mang4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/support/mem_mang4.c.s
+.PHONY : support/mem_mang4.c.s
 
 # Help Target
 help:
@@ -2328,6 +2544,9 @@ help:
 	@echo ... APP/chassis_task.obj
 	@echo ... APP/chassis_task.i
 	@echo ... APP/chassis_task.s
+	@echo ... APP/referee_task.obj
+	@echo ... APP/referee_task.i
+	@echo ... APP/referee_task.s
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.s
@@ -2550,6 +2769,12 @@ help:
 	@echo ... module/pid.obj
 	@echo ... module/pid.i
 	@echo ... module/pid.s
+	@echo ... module/referee.obj
+	@echo ... module/referee.i
+	@echo ... module/referee.s
+	@echo ... module/referee_data.obj
+	@echo ... module/referee_data.i
+	@echo ... module/referee_data.s
 	@echo ... module/remote_control.obj
 	@echo ... module/remote_control.i
 	@echo ... module/remote_control.s
@@ -2559,7 +2784,22 @@ help:
 	@echo ... module/user_lib.obj
 	@echo ... module/user_lib.i
 	@echo ... module/user_lib.s
+	@echo ... module/vision.obj
+	@echo ... module/vision.i
+	@echo ... module/vision.s
+	@echo ... module/vision_data.obj
+	@echo ... module/vision_data.i
+	@echo ... module/vision_data.s
 	@echo ... startup/startup_stm32f407xx.obj
+	@echo ... support/CRC8_CRC16.obj
+	@echo ... support/CRC8_CRC16.i
+	@echo ... support/CRC8_CRC16.s
+	@echo ... support/fifo.obj
+	@echo ... support/fifo.i
+	@echo ... support/fifo.s
+	@echo ... support/mem_mang4.obj
+	@echo ... support/mem_mang4.i
+	@echo ... support/mem_mang4.s
 .PHONY : help
 
 

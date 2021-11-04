@@ -5,8 +5,7 @@
 #include "System_Config.h"
 #include "chassis_task.h"
 #include "task.h"
-#include "remote_data.h"
-#include "bsp_usart.h"
+#include "referee_task.h"
 
 
 #define Tiny_Stack_Size       64
@@ -25,14 +24,6 @@
 
 TaskHandle_t Chassis_Task_Handle;
 
-
-
-void Task_init() {
-    /* Syetem Service init --------------*/
-    remote_control_init();
-    usart1_tx_dma_init();
-    /* Applications Init ----------------*/
-}
 
 /**
 * @brief Load and start User Tasks.

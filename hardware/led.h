@@ -6,9 +6,4 @@
 #define CLASSIS_BOARD_LED_H
 
 
-class led{
-
-};
-
-
 #endif //CLASSIS_BOARD_LED_H

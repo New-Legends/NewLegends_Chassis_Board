@@ -6,9 +6,4 @@
 #define CLASSIS_BOARD_BUZZER_H
 
 
-class buzzer {
-
-};
-
-
 #endif //CLASSIS_BOARD_BUZZER_H

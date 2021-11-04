@@ -34,11 +34,11 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../APP"
   "../hardware"
   "../module"
-  "../filter"
-  "../components/algorithm/Include"
-  "../components/algorithm"
+  "../support"
+  "../protocol"
   )
 set(CMAKE_DEPENDS_CHECK_C
+  "E:/Robomaster/Chassis_Board/APP/referee_task.c" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/APP/referee_task.c.obj"
   "E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
   "E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
   "E:/Robomaster/Chassis_Board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
@@ -104,7 +104,14 @@ set(CMAKE_DEPENDS_CHECK_C
   "E:/Robomaster/Chassis_Board/Src/usbd_conf.c" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/Src/usbd_conf.c.obj"
   "E:/Robomaster/Chassis_Board/Src/usbd_desc.c" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/Src/usbd_desc.c.obj"
   "E:/Robomaster/Chassis_Board/hardware/bsp_can.c" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/hardware/bsp_can.c.obj"
+  "E:/Robomaster/Chassis_Board/hardware/bsp_usart.c" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/hardware/bsp_usart.c.obj"
+  "E:/Robomaster/Chassis_Board/hardware/buzzer.c" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/hardware/buzzer.c.obj"
+  "E:/Robomaster/Chassis_Board/hardware/led.c" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/hardware/led.c.obj"
+  "E:/Robomaster/Chassis_Board/module/referee_data.c" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/module/referee_data.c.obj"
   "E:/Robomaster/Chassis_Board/module/remote_data.c" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/module/remote_data.c.obj"
+  "E:/Robomaster/Chassis_Board/support/CRC8_CRC16.c" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/support/CRC8_CRC16.c.obj"
+  "E:/Robomaster/Chassis_Board/support/fifo.c" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/support/fifo.c.obj"
+  "E:/Robomaster/Chassis_Board/support/mem_mang4.c" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/support/mem_mang4.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -132,25 +139,24 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../APP"
   "../hardware"
   "../module"
-  "../filter"
-  "../components/algorithm/Include"
-  "../components/algorithm"
+  "../support"
+  "../protocol"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "E:/Robomaster/Chassis_Board/APP/CAN_receive.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/APP/CAN_receive.cpp.obj"
   "E:/Robomaster/Chassis_Board/APP/System_Config.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/APP/System_Config.cpp.obj"
   "E:/Robomaster/Chassis_Board/APP/chassis_task.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/APP/chassis_task.cpp.obj"
-  "E:/Robomaster/Chassis_Board/hardware/bsp_usart.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/hardware/bsp_usart.cpp.obj"
-  "E:/Robomaster/Chassis_Board/hardware/buzzer.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/hardware/buzzer.cpp.obj"
-  "E:/Robomaster/Chassis_Board/hardware/led.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/hardware/led.cpp.obj"
   "E:/Robomaster/Chassis_Board/module/M_Chassis.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.obj"
   "E:/Robomaster/Chassis_Board/module/first_order_filter.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/module/first_order_filter.cpp.obj"
   "E:/Robomaster/Chassis_Board/module/motor_3508.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/module/motor_3508.cpp.obj"
   "E:/Robomaster/Chassis_Board/module/motor_6020.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/module/motor_6020.cpp.obj"
   "E:/Robomaster/Chassis_Board/module/motor_measure.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/module/motor_measure.cpp.obj"
   "E:/Robomaster/Chassis_Board/module/pid.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/module/pid.cpp.obj"
+  "E:/Robomaster/Chassis_Board/module/referee.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/module/referee.cpp.obj"
   "E:/Robomaster/Chassis_Board/module/remote_control.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/module/remote_control.cpp.obj"
   "E:/Robomaster/Chassis_Board/module/user_lib.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/module/user_lib.cpp.obj"
+  "E:/Robomaster/Chassis_Board/module/vision.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/module/vision.cpp.obj"
+  "E:/Robomaster/Chassis_Board/module/vision_data.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/module/vision_data.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -178,9 +184,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../APP"
   "../hardware"
   "../module"
-  "../filter"
-  "../components/algorithm/Include"
-  "../components/algorithm"
+  "../support"
+  "../protocol"
   )
 
 # Targets to which this target links.

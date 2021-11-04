@@ -100,7 +100,7 @@ void M_Chassis::set_mode() {
     } else if (switch_is_down(Rc.data->rc.s[CHASSIS_MODE_CHANNEL])) {
         chassis_behaviour_mode = CHASSIS_NO_MOVE;
     } else if (switch_is_up(Rc.data->rc.s[CHASSIS_MODE_CHANNEL])) {
-        chassis_behaviour_mode = CHASSIS_INFANTRY_FOLLOW_GIMBAL_YAW;
+        chassis_behaviour_mode = CHASSIS_ENGINEER_FOLLOW_CHASSIS_YAW;
     }
 
     //TODO:当云台在某些模式下，像初始化， 底盘不动

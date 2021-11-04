@@ -9,7 +9,6 @@
 #ifdef  __cplusplus
 extern "C" {
 #endif
-void Task_init();
 void Task_start(void);
 void System_Resource_Init(void);
 

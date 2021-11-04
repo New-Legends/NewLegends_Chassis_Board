@@ -38,7 +38,7 @@ extern "C" {
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
-
+void Task_init();
 /* USER CODE END ET */
 
 /* Exported constants --------------------------------------------------------*/

@@ -42,9 +42,8 @@
 					<Add directory="E:/Robomaster/Chassis_Board/APP"/>
 					<Add directory="E:/Robomaster/Chassis_Board/hardware"/>
 					<Add directory="E:/Robomaster/Chassis_Board/module"/>
-					<Add directory="E:/Robomaster/Chassis_Board/filter"/>
-					<Add directory="E:/Robomaster/Chassis_Board/components/algorithm/Include"/>
-					<Add directory="E:/Robomaster/Chassis_Board/components/algorithm"/>
+					<Add directory="E:/Robomaster/Chassis_Board/support"/>
+					<Add directory="E:/Robomaster/Chassis_Board/protocol"/>
 					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -84,9 +83,8 @@
 					<Add directory="E:/Robomaster/Chassis_Board/APP"/>
 					<Add directory="E:/Robomaster/Chassis_Board/hardware"/>
 					<Add directory="E:/Robomaster/Chassis_Board/module"/>
-					<Add directory="E:/Robomaster/Chassis_Board/filter"/>
-					<Add directory="E:/Robomaster/Chassis_Board/components/algorithm/Include"/>
-					<Add directory="E:/Robomaster/Chassis_Board/components/algorithm"/>
+					<Add directory="E:/Robomaster/Chassis_Board/support"/>
+					<Add directory="E:/Robomaster/Chassis_Board/protocol"/>
 					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -138,6 +136,12 @@
 			<Option target="Classis_Board.elf"/>
 		</Unit>
 		<Unit filename="E:/Robomaster/Chassis_Board/APP/chassis_task.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/APP/referee_task.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/APP/referee_task.h">
 			<Option target="Classis_Board.elf"/>
 		</Unit>
 		<Unit filename="E:/Robomaster/Chassis_Board/APP/struct_typedef.h">
@@ -584,19 +588,19 @@
 		<Unit filename="E:/Robomaster/Chassis_Board/hardware/bsp_can.h">
 			<Option target="Classis_Board.elf"/>
 		</Unit>
-		<Unit filename="E:/Robomaster/Chassis_Board/hardware/bsp_usart.cpp">
+		<Unit filename="E:/Robomaster/Chassis_Board/hardware/bsp_usart.c">
 			<Option target="Classis_Board.elf"/>
 		</Unit>
 		<Unit filename="E:/Robomaster/Chassis_Board/hardware/bsp_usart.h">
 			<Option target="Classis_Board.elf"/>
 		</Unit>
-		<Unit filename="E:/Robomaster/Chassis_Board/hardware/buzzer.cpp">
+		<Unit filename="E:/Robomaster/Chassis_Board/hardware/buzzer.c">
 			<Option target="Classis_Board.elf"/>
 		</Unit>
 		<Unit filename="E:/Robomaster/Chassis_Board/hardware/buzzer.h">
 			<Option target="Classis_Board.elf"/>
 		</Unit>
-		<Unit filename="E:/Robomaster/Chassis_Board/hardware/led.cpp">
+		<Unit filename="E:/Robomaster/Chassis_Board/hardware/led.c">
 			<Option target="Classis_Board.elf"/>
 		</Unit>
 		<Unit filename="E:/Robomaster/Chassis_Board/hardware/led.h">
@@ -638,6 +642,18 @@
 		<Unit filename="E:/Robomaster/Chassis_Board/module/pid.h">
 			<Option target="Classis_Board.elf"/>
 		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/referee.cpp">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/referee.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/referee_data.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/referee_data.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
 		<Unit filename="E:/Robomaster/Chassis_Board/module/remote_control.cpp">
 			<Option target="Classis_Board.elf"/>
 		</Unit>
@@ -656,7 +672,46 @@
 		<Unit filename="E:/Robomaster/Chassis_Board/module/user_lib.h">
 			<Option target="Classis_Board.elf"/>
 		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/vision.cpp">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/vision.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/vision_data.cpp">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/vision_data.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/protocol/protocol.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
 		<Unit filename="E:/Robomaster/Chassis_Board/startup/startup_stm32f407xx.s">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/support/CRC8_CRC16.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/support/CRC8_CRC16.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/support/fifo.c">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/support/fifo.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/support/linux_list.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/support/macro_mutex.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/support/mem_mang.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/support/mem_mang4.c">
 			<Option target="Classis_Board.elf"/>
 		</Unit>
 		<Unit filename="E:/Robomaster/Chassis_Board/CMakeLists.txt">
