@@ -195,6 +195,33 @@ APP/System_Config.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/APP/System_Config.cpp.s
 .PHONY : APP/System_Config.cpp.s
 
+APP/UI_task.obj: APP/UI_task.cpp.obj
+
+.PHONY : APP/UI_task.obj
+
+# target to build an object file
+APP/UI_task.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj
+.PHONY : APP/UI_task.cpp.obj
+
+APP/UI_task.i: APP/UI_task.cpp.i
+
+.PHONY : APP/UI_task.i
+
+# target to preprocess a source file
+APP/UI_task.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.i
+.PHONY : APP/UI_task.cpp.i
+
+APP/UI_task.s: APP/UI_task.cpp.s
+
+.PHONY : APP/UI_task.s
+
+# target to generate assembly for a file
+APP/UI_task.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.s
+.PHONY : APP/UI_task.cpp.s
+
 APP/chassis_task.obj: APP/chassis_task.cpp.obj
 
 .PHONY : APP/chassis_task.obj
@@ -221,6 +248,33 @@ APP/chassis_task.s: APP/chassis_task.cpp.s
 APP/chassis_task.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/APP/chassis_task.cpp.s
 .PHONY : APP/chassis_task.cpp.s
+
+APP/communication_task.obj: APP/communication_task.cpp.obj
+
+.PHONY : APP/communication_task.obj
+
+# target to build an object file
+APP/communication_task.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/APP/communication_task.cpp.obj
+.PHONY : APP/communication_task.cpp.obj
+
+APP/communication_task.i: APP/communication_task.cpp.i
+
+.PHONY : APP/communication_task.i
+
+# target to preprocess a source file
+APP/communication_task.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/APP/communication_task.cpp.i
+.PHONY : APP/communication_task.cpp.i
+
+APP/communication_task.s: APP/communication_task.cpp.s
+
+.PHONY : APP/communication_task.s
+
+# target to generate assembly for a file
+APP/communication_task.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/APP/communication_task.cpp.s
+.PHONY : APP/communication_task.cpp.s
 
 APP/referee_task.obj: APP/referee_task.c.obj
 
@@ -2112,6 +2166,33 @@ module/M_Chassis.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.s
 .PHONY : module/M_Chassis.cpp.s
 
+module/UI.obj: module/UI.cpp.obj
+
+.PHONY : module/UI.obj
+
+# target to build an object file
+module/UI.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj
+.PHONY : module/UI.cpp.obj
+
+module/UI.i: module/UI.cpp.i
+
+.PHONY : module/UI.i
+
+# target to preprocess a source file
+module/UI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.i
+.PHONY : module/UI.cpp.i
+
+module/UI.s: module/UI.cpp.s
+
+.PHONY : module/UI.s
+
+# target to generate assembly for a file
+module/UI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.s
+.PHONY : module/UI.cpp.s
+
 module/first_order_filter.obj: module/first_order_filter.cpp.obj
 
 .PHONY : module/first_order_filter.obj
@@ -2247,6 +2328,33 @@ module/pid.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/pid.cpp.s
 .PHONY : module/pid.cpp.s
 
+module/power_control.obj: module/power_control.cpp.obj
+
+.PHONY : module/power_control.obj
+
+# target to build an object file
+module/power_control.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/power_control.cpp.obj
+.PHONY : module/power_control.cpp.obj
+
+module/power_control.i: module/power_control.cpp.i
+
+.PHONY : module/power_control.i
+
+# target to preprocess a source file
+module/power_control.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/power_control.cpp.i
+.PHONY : module/power_control.cpp.i
+
+module/power_control.s: module/power_control.cpp.s
+
+.PHONY : module/power_control.s
+
+# target to generate assembly for a file
+module/power_control.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/power_control.cpp.s
+.PHONY : module/power_control.cpp.s
+
 module/referee.obj: module/referee.cpp.obj
 
 .PHONY : module/referee.obj
@@ -2355,6 +2463,33 @@ module/remote_data.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/remote_data.c.s
 .PHONY : module/remote_data.c.s
 
+module/super_cap.obj: module/super_cap.cpp.obj
+
+.PHONY : module/super_cap.obj
+
+# target to build an object file
+module/super_cap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/super_cap.cpp.obj
+.PHONY : module/super_cap.cpp.obj
+
+module/super_cap.i: module/super_cap.cpp.i
+
+.PHONY : module/super_cap.i
+
+# target to preprocess a source file
+module/super_cap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/super_cap.cpp.i
+.PHONY : module/super_cap.cpp.i
+
+module/super_cap.s: module/super_cap.cpp.s
+
+.PHONY : module/super_cap.s
+
+# target to generate assembly for a file
+module/super_cap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/super_cap.cpp.s
+.PHONY : module/super_cap.cpp.s
+
 module/user_lib.obj: module/user_lib.cpp.obj
 
 .PHONY : module/user_lib.obj
@@ -2381,60 +2516,6 @@ module/user_lib.s: module/user_lib.cpp.s
 module/user_lib.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/user_lib.cpp.s
 .PHONY : module/user_lib.cpp.s
-
-module/vision.obj: module/vision.cpp.obj
-
-.PHONY : module/vision.obj
-
-# target to build an object file
-module/vision.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/vision.cpp.obj
-.PHONY : module/vision.cpp.obj
-
-module/vision.i: module/vision.cpp.i
-
-.PHONY : module/vision.i
-
-# target to preprocess a source file
-module/vision.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/vision.cpp.i
-.PHONY : module/vision.cpp.i
-
-module/vision.s: module/vision.cpp.s
-
-.PHONY : module/vision.s
-
-# target to generate assembly for a file
-module/vision.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/vision.cpp.s
-.PHONY : module/vision.cpp.s
-
-module/vision_data.obj: module/vision_data.cpp.obj
-
-.PHONY : module/vision_data.obj
-
-# target to build an object file
-module/vision_data.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/vision_data.cpp.obj
-.PHONY : module/vision_data.cpp.obj
-
-module/vision_data.i: module/vision_data.cpp.i
-
-.PHONY : module/vision_data.i
-
-# target to preprocess a source file
-module/vision_data.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/vision_data.cpp.i
-.PHONY : module/vision_data.cpp.i
-
-module/vision_data.s: module/vision_data.cpp.s
-
-.PHONY : module/vision_data.s
-
-# target to generate assembly for a file
-module/vision_data.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/module/vision_data.cpp.s
-.PHONY : module/vision_data.cpp.s
 
 startup/startup_stm32f407xx.obj: startup/startup_stm32f407xx.s.obj
 
@@ -2541,9 +2622,15 @@ help:
 	@echo ... APP/System_Config.obj
 	@echo ... APP/System_Config.i
 	@echo ... APP/System_Config.s
+	@echo ... APP/UI_task.obj
+	@echo ... APP/UI_task.i
+	@echo ... APP/UI_task.s
 	@echo ... APP/chassis_task.obj
 	@echo ... APP/chassis_task.i
 	@echo ... APP/chassis_task.s
+	@echo ... APP/communication_task.obj
+	@echo ... APP/communication_task.i
+	@echo ... APP/communication_task.s
 	@echo ... APP/referee_task.obj
 	@echo ... APP/referee_task.i
 	@echo ... APP/referee_task.s
@@ -2754,6 +2841,9 @@ help:
 	@echo ... module/M_Chassis.obj
 	@echo ... module/M_Chassis.i
 	@echo ... module/M_Chassis.s
+	@echo ... module/UI.obj
+	@echo ... module/UI.i
+	@echo ... module/UI.s
 	@echo ... module/first_order_filter.obj
 	@echo ... module/first_order_filter.i
 	@echo ... module/first_order_filter.s
@@ -2769,6 +2859,9 @@ help:
 	@echo ... module/pid.obj
 	@echo ... module/pid.i
 	@echo ... module/pid.s
+	@echo ... module/power_control.obj
+	@echo ... module/power_control.i
+	@echo ... module/power_control.s
 	@echo ... module/referee.obj
 	@echo ... module/referee.i
 	@echo ... module/referee.s
@@ -2781,15 +2874,12 @@ help:
 	@echo ... module/remote_data.obj
 	@echo ... module/remote_data.i
 	@echo ... module/remote_data.s
+	@echo ... module/super_cap.obj
+	@echo ... module/super_cap.i
+	@echo ... module/super_cap.s
 	@echo ... module/user_lib.obj
 	@echo ... module/user_lib.i
 	@echo ... module/user_lib.s
-	@echo ... module/vision.obj
-	@echo ... module/vision.i
-	@echo ... module/vision.s
-	@echo ... module/vision_data.obj
-	@echo ... module/vision_data.i
-	@echo ... module/vision_data.s
 	@echo ... startup/startup_stm32f407xx.obj
 	@echo ... support/CRC8_CRC16.obj
 	@echo ... support/CRC8_CRC16.i

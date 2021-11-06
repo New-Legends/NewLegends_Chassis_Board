@@ -368,9 +368,19 @@ stm32f4xx_hal_lptim.h
 struct_typedef.h
 ../protocol/struct_typedef.h
 
-E:/Robomaster/Chassis_Board/module/referee.cpp
+E:/Robomaster/Chassis_Board/module/UI.cpp
+UI.h
+E:/Robomaster/Chassis_Board/module/UI.h
+
+E:/Robomaster/Chassis_Board/module/UI.h
 referee.h
 E:/Robomaster/Chassis_Board/module/referee.h
+struct_typedef.h
+E:/Robomaster/Chassis_Board/module/struct_typedef.h
+vector
+-
+string
+-
 
 E:/Robomaster/Chassis_Board/module/referee.h
 struct_typedef.h

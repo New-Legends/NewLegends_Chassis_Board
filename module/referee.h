@@ -34,8 +34,11 @@ extern ext_rfid_status_t rfid_status_t;
 extern ext_dart_client_cmd_t dart_client_cmd;
 extern ext_student_interactive_data_t student_interactive_data_t;
 
+
+static uint8_t Robot_ID;
+static uint16_t Robot_Client_ID;
+
 class referee {
-    referee();
 public:
     const frame_header_struct_t *Receive_header = &referee_receive_header;//接受报文
     const frame_header_struct_t *Send_header = &referee_send_header;//发送报文
@@ -59,14 +62,18 @@ public:
     const ext_robot_hurt_t *Robot_hurt = &robot_hurt_t;//伤害来源
     const ext_shoot_data_t *Shoot_data_t = &shoot_data_t;//实时射击信息
     const ext_bullet_remaining_t *Bullet_remain = &bullet_remaining_t;//子弹剩余发射数
-    const ext_rfid_status_t *RFID_status = &rfid_status_t;
-    const ext_dart_client_cmd_t *Dart_client_cmd = &dart_client_cmd;
+    const ext_rfid_status_t *RFID_status = &rfid_status_t;//RFID状态
+    const ext_dart_client_cmd_t *Dart_client_cmd = &dart_client_cmd;//飞镖发射架状态
     //const ext_student_interactive_data_t student_interactive_data_t;
 
     robot_camp Camp;
-    uint8_t Robot_ID;
-    [[nodiscard]] robot_camp judge_camp() const;
 
+
+    [[nodiscard]] static robot_camp judge_camp();
+
+    [[nodiscard]] uint16_t get_client_id() const;
+
+    referee();
 };
 
 #endif //CPROJECT_REFEREE_H

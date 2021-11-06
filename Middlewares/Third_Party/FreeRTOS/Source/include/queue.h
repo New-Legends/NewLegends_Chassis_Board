@@ -901,7 +901,7 @@ UBaseType_t uxQueueSpacesAvailable( const QueueHandle_t xQueue ) PRIVILEGED_FUNC
  * queue. h
  * <pre>void vQueueDelete( QueueHandle_t xQueue );</pre>
  *
- * Delete a queue - freeing all the memory allocated for storing of items
+ * Delete_Graph a queue - freeing all the memory allocated for storing of items
  * placed on the queue.
  *
  * @param xQueue A handle to the queue to be deleted.

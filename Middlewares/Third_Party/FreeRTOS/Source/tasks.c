@@ -752,7 +752,7 @@ static void prvAddNewTaskToReadyList( TCB_t *pxNewTCB ) PRIVILEGED_FUNCTION;
 
 				if( pxNewTCB->pxStack == NULL )
 				{
-					/* Could not allocate the stack.  Delete the allocated TCB. */
+					/* Could not allocate the stack.  Delete_Graph the allocated TCB. */
 					vPortFree( pxNewTCB );
 					pxNewTCB = NULL;
 				}

@@ -167,7 +167,7 @@ __weak void start_task(void const *argument) {
     for (;;) {
         Referee_start();
         Task_start();
-        /* Delete the default task. */
+        /* Delete_Graph the default task. */
         osThreadTerminate(startTaskHandle);
     }
     /* USER CODE END test_task */

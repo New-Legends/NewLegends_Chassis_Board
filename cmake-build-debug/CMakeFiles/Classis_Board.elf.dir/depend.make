@@ -3224,8 +3224,76 @@ CMakeFiles/Classis_Board.elf.dir/APP/System_Config.cpp.obj: ../Middlewares/Third
 CMakeFiles/Classis_Board.elf.dir/APP/System_Config.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h
 CMakeFiles/Classis_Board.elf.dir/APP/System_Config.cpp.obj: ../APP/System_Config.cpp
 CMakeFiles/Classis_Board.elf.dir/APP/System_Config.cpp.obj: ../APP/System_Config.h
+CMakeFiles/Classis_Board.elf.dir/APP/System_Config.cpp.obj: ../APP/UI_task.h
 CMakeFiles/Classis_Board.elf.dir/APP/System_Config.cpp.obj: ../APP/chassis_task.h
 CMakeFiles/Classis_Board.elf.dir/APP/System_Config.cpp.obj: ../APP/referee_task.h
+
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../APP/struct_typedef.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/CMSIS/Include/cmsis_armcc.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/CMSIS/Include/cmsis_armclang.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/CMSIS/Include/cmsis_compiler.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/CMSIS/Include/cmsis_gcc.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/CMSIS/Include/cmsis_iccarm.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/CMSIS/Include/cmsis_version.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/CMSIS/Include/core_cm4.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_crc.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Inc/FreeRTOSConfig.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Inc/main.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Inc/stm32f4xx_hal_conf.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../module/UI.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../module/referee.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../module/referee_data.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../protocol/protocol.h
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../APP/UI_task.cpp
+CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../APP/UI_task.h
 
 CMakeFiles/Classis_Board.elf.dir/APP/chassis_task.cpp.obj: ../APP/CAN_receive.h
 CMakeFiles/Classis_Board.elf.dir/APP/chassis_task.cpp.obj: ../APP/struct_typedef.h
@@ -3295,10 +3363,16 @@ CMakeFiles/Classis_Board.elf.dir/APP/chassis_task.cpp.obj: ../module/motor_3508.
 CMakeFiles/Classis_Board.elf.dir/APP/chassis_task.cpp.obj: ../module/motor_6020.h
 CMakeFiles/Classis_Board.elf.dir/APP/chassis_task.cpp.obj: ../module/motor_measure.h
 CMakeFiles/Classis_Board.elf.dir/APP/chassis_task.cpp.obj: ../module/pid.h
+CMakeFiles/Classis_Board.elf.dir/APP/chassis_task.cpp.obj: ../module/referee.h
+CMakeFiles/Classis_Board.elf.dir/APP/chassis_task.cpp.obj: ../module/referee_data.h
 CMakeFiles/Classis_Board.elf.dir/APP/chassis_task.cpp.obj: ../module/remote_control.h
 CMakeFiles/Classis_Board.elf.dir/APP/chassis_task.cpp.obj: ../module/remote_data.h
+CMakeFiles/Classis_Board.elf.dir/APP/chassis_task.cpp.obj: ../protocol/protocol.h
 CMakeFiles/Classis_Board.elf.dir/APP/chassis_task.cpp.obj: ../APP/chassis_task.cpp
 CMakeFiles/Classis_Board.elf.dir/APP/chassis_task.cpp.obj: ../APP/chassis_task.h
+
+CMakeFiles/Classis_Board.elf.dir/APP/communication_task.cpp.obj: ../APP/communication_task.cpp
+CMakeFiles/Classis_Board.elf.dir/APP/communication_task.cpp.obj: ../APP/communication_task.h
 
 CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.obj: ../APP/CAN_receive.h
 CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.obj: ../APP/struct_typedef.h
@@ -3359,6 +3433,58 @@ CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.obj: ../module/remote_cont
 CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.obj: ../module/remote_data.h
 CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.obj: ../module/user_lib.h
 
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../APP/struct_typedef.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/CMSIS/Include/cmsis_armcc.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/CMSIS/Include/cmsis_armclang.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/CMSIS/Include/cmsis_compiler.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/CMSIS/Include/cmsis_gcc.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/CMSIS/Include/cmsis_iccarm.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/CMSIS/Include/cmsis_version.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/CMSIS/Include/core_cm4.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_crc.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Inc/main.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../Inc/stm32f4xx_hal_conf.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../protocol/protocol.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../module/UI.cpp
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../module/UI.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../module/referee.h
+CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../module/referee_data.h
+
 CMakeFiles/Classis_Board.elf.dir/module/first_order_filter.cpp.obj: ../APP/struct_typedef.h
 CMakeFiles/Classis_Board.elf.dir/module/first_order_filter.cpp.obj: ../module/first_order_filter.cpp
 CMakeFiles/Classis_Board.elf.dir/module/first_order_filter.cpp.obj: ../module/first_order_filter.h
@@ -3381,6 +3507,9 @@ CMakeFiles/Classis_Board.elf.dir/module/motor_measure.cpp.obj: ../module/motor_m
 CMakeFiles/Classis_Board.elf.dir/module/pid.cpp.obj: ../APP/struct_typedef.h
 CMakeFiles/Classis_Board.elf.dir/module/pid.cpp.obj: ../module/pid.cpp
 CMakeFiles/Classis_Board.elf.dir/module/pid.cpp.obj: ../module/pid.h
+
+CMakeFiles/Classis_Board.elf.dir/module/power_control.cpp.obj: ../module/power_control.cpp
+CMakeFiles/Classis_Board.elf.dir/module/power_control.cpp.obj: ../module/power_control.h
 
 CMakeFiles/Classis_Board.elf.dir/module/referee.cpp.obj: ../APP/struct_typedef.h
 CMakeFiles/Classis_Board.elf.dir/module/referee.cpp.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
@@ -3484,13 +3613,10 @@ CMakeFiles/Classis_Board.elf.dir/module/remote_control.cpp.obj: ../module/remote
 CMakeFiles/Classis_Board.elf.dir/module/remote_control.cpp.obj: ../module/remote_control.h
 CMakeFiles/Classis_Board.elf.dir/module/remote_control.cpp.obj: ../module/remote_data.h
 
+CMakeFiles/Classis_Board.elf.dir/module/super_cap.cpp.obj: ../module/super_cap.cpp
+CMakeFiles/Classis_Board.elf.dir/module/super_cap.cpp.obj: ../module/super_cap.h
+
 CMakeFiles/Classis_Board.elf.dir/module/user_lib.cpp.obj: ../APP/struct_typedef.h
 CMakeFiles/Classis_Board.elf.dir/module/user_lib.cpp.obj: ../module/user_lib.cpp
 CMakeFiles/Classis_Board.elf.dir/module/user_lib.cpp.obj: ../module/user_lib.h
-
-CMakeFiles/Classis_Board.elf.dir/module/vision.cpp.obj: ../module/vision.cpp
-CMakeFiles/Classis_Board.elf.dir/module/vision.cpp.obj: ../module/vision.h
-
-CMakeFiles/Classis_Board.elf.dir/module/vision_data.cpp.obj: ../module/vision_data.cpp
-CMakeFiles/Classis_Board.elf.dir/module/vision_data.cpp.obj: ../module/vision_data.h
 

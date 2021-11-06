@@ -26,7 +26,7 @@
  *  
  *----------------------------------------------------------------------------
  *
- * Portions Copyright © 2016 STMicroelectronics International N.V. All rights reserved.
+ * Portions Copyright ï¿½ 2016 STMicroelectronics International N.V. All rights reserved.
  * Portions Copyright (c) 2013 ARM LIMITED
  * All rights reserved.
  * Redistribution and use in source and binary forms, with or without
@@ -507,7 +507,7 @@ osStatus osTimerStop (osTimerId timer_id)
 }
 
 /**
-* @brief  Delete a timer.
+* @brief  Delete_Graph a timer.
 * @param  timer_id      timer ID obtained by \ref osTimerCreate
 * @retval  status code that indicates the execution status of the function.
 * @note   MUST REMAIN UNCHANGED: \b osTimerDelete shall be consistent in every CMSIS-RTOS.
@@ -725,7 +725,7 @@ osStatus osMutexRelease (osMutexId mutex_id)
 }
 
 /**
-* @brief Delete a Mutex
+* @brief Delete_Graph a Mutex
 * @param mutex_id  mutex ID obtained by \ref osMutexCreate.
 * @retval  status code that indicates the execution status of the function.
 * @note   MUST REMAIN UNCHANGED: \b osMutexDelete shall be consistent in every CMSIS-RTOS.
@@ -881,7 +881,7 @@ osStatus osSemaphoreRelease (osSemaphoreId semaphore_id)
 }
 
 /**
-* @brief Delete a Semaphore
+* @brief Delete_Graph a Semaphore
 * @param  semaphore_id  semaphore object referenced with \ref osSemaphore.
 * @retval  status code that indicates the execution status of the function.
 * @note   MUST REMAIN UNCHANGED: \b osSemaphoreDelete shall be consistent in every CMSIS-RTOS.
@@ -1239,7 +1239,7 @@ osMailQId osMailCreate (const osMailQDef_t *queue_def, osThreadId thread_id)
   /* Create a mail pool */
   (*(queue_def->cb))->pool = osPoolCreate(&pool_def);
   if ((*(queue_def->cb))->pool == NULL) {
-    //TODO: Delete queue. How to do it in FreeRTOS?
+    //TODO: Delete_Graph queue. How to do it in FreeRTOS?
     vPortFree(*(queue_def->cb));
     return NULL;
   }
@@ -1661,7 +1661,7 @@ uint32_t osMessageAvailableSpace(osMessageQId queue_id)
 }
 
 /**
-* @brief Delete a Message Queue
+* @brief Delete_Graph a Message Queue
 * @param  queue_id  message queue ID obtained with \ref osMessageCreate.
 * @retval  status code that indicates the execution status of the function.
 */

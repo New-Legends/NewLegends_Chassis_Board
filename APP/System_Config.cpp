@@ -6,6 +6,7 @@
 #include "chassis_task.h"
 #include "task.h"
 #include "referee_task.h"
+#include "UI_task.h"
 
 
 #define Tiny_Stack_Size       64
@@ -23,6 +24,7 @@
 #define PriorityRealtime      8
 
 TaskHandle_t Chassis_Task_Handle;
+TaskHandle_t UI_Task_Handle;
 
 
 /**
@@ -32,5 +34,6 @@ TaskHandle_t Chassis_Task_Handle;
 void Task_start(void) {
     /* Syetem Service init --------------*/
     /* Applications Init ----------------*/
-    xTaskCreate(chassis_task, "chassis_task", Normal_Stack_Size, NULL, PriorityHigh, &Chassis_Task_Handle);
+    xTaskCreate(chassis_task, "chassis_task", Normal_Stack_Size, nullptr, PriorityHigh, &Chassis_Task_Handle);
+    xTaskCreate(UI_task, "UI_task", Normal_Stack_Size, nullptr, PriorityHigh, &UI_Task_Handle);
 }

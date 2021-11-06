@@ -132,10 +132,22 @@
 		<Unit filename="E:/Robomaster/Chassis_Board/APP/System_Config.h">
 			<Option target="Classis_Board.elf"/>
 		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/APP/UI_task.cpp">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/APP/UI_task.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
 		<Unit filename="E:/Robomaster/Chassis_Board/APP/chassis_task.cpp">
 			<Option target="Classis_Board.elf"/>
 		</Unit>
 		<Unit filename="E:/Robomaster/Chassis_Board/APP/chassis_task.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/APP/communication_task.cpp">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/APP/communication_task.h">
 			<Option target="Classis_Board.elf"/>
 		</Unit>
 		<Unit filename="E:/Robomaster/Chassis_Board/APP/referee_task.c">
@@ -612,6 +624,12 @@
 		<Unit filename="E:/Robomaster/Chassis_Board/module/M_Chassis.h">
 			<Option target="Classis_Board.elf"/>
 		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/UI.cpp">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/UI.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
 		<Unit filename="E:/Robomaster/Chassis_Board/module/first_order_filter.cpp">
 			<Option target="Classis_Board.elf"/>
 		</Unit>
@@ -642,6 +660,12 @@
 		<Unit filename="E:/Robomaster/Chassis_Board/module/pid.h">
 			<Option target="Classis_Board.elf"/>
 		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/power_control.cpp">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/power_control.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
 		<Unit filename="E:/Robomaster/Chassis_Board/module/referee.cpp">
 			<Option target="Classis_Board.elf"/>
 		</Unit>
@@ -666,22 +690,16 @@
 		<Unit filename="E:/Robomaster/Chassis_Board/module/remote_data.h">
 			<Option target="Classis_Board.elf"/>
 		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/super_cap.cpp">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/Robomaster/Chassis_Board/module/super_cap.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
 		<Unit filename="E:/Robomaster/Chassis_Board/module/user_lib.cpp">
 			<Option target="Classis_Board.elf"/>
 		</Unit>
 		<Unit filename="E:/Robomaster/Chassis_Board/module/user_lib.h">
-			<Option target="Classis_Board.elf"/>
-		</Unit>
-		<Unit filename="E:/Robomaster/Chassis_Board/module/vision.cpp">
-			<Option target="Classis_Board.elf"/>
-		</Unit>
-		<Unit filename="E:/Robomaster/Chassis_Board/module/vision.h">
-			<Option target="Classis_Board.elf"/>
-		</Unit>
-		<Unit filename="E:/Robomaster/Chassis_Board/module/vision_data.cpp">
-			<Option target="Classis_Board.elf"/>
-		</Unit>
-		<Unit filename="E:/Robomaster/Chassis_Board/module/vision_data.h">
 			<Option target="Classis_Board.elf"/>
 		</Unit>
 		<Unit filename="E:/Robomaster/Chassis_Board/protocol/protocol.h">

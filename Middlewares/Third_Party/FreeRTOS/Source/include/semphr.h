@@ -1087,7 +1087,7 @@ typedef QueueHandle_t SemaphoreHandle_t;
  * semphr. h
  * <pre>void vSemaphoreDelete( SemaphoreHandle_t xSemaphore );</pre>
  *
- * Delete a semaphore.  This function must be used with care.  For example,
+ * Delete_Graph a semaphore.  This function must be used with care.  For example,
  * do not delete a mutex type semaphore if the mutex is held by a task.
  *
  * @param xSemaphore A handle to the semaphore to be deleted.

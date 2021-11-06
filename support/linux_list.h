@@ -105,7 +105,7 @@ static __inline void list_add_tail(list_t *new, list_t *head)
 }
 
 /*
- * Delete a list entry by making the prev/next entries
+ * Delete_Graph a list entry by making the prev/next entries
  * point to each other.
  *
  * This is only for internal list manipulation where we know

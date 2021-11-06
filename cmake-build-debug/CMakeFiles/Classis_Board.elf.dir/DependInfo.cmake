@@ -145,18 +145,21 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 set(CMAKE_DEPENDS_CHECK_CXX
   "E:/Robomaster/Chassis_Board/APP/CAN_receive.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/APP/CAN_receive.cpp.obj"
   "E:/Robomaster/Chassis_Board/APP/System_Config.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/APP/System_Config.cpp.obj"
+  "E:/Robomaster/Chassis_Board/APP/UI_task.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj"
   "E:/Robomaster/Chassis_Board/APP/chassis_task.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/APP/chassis_task.cpp.obj"
+  "E:/Robomaster/Chassis_Board/APP/communication_task.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/APP/communication_task.cpp.obj"
   "E:/Robomaster/Chassis_Board/module/M_Chassis.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.obj"
+  "E:/Robomaster/Chassis_Board/module/UI.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj"
   "E:/Robomaster/Chassis_Board/module/first_order_filter.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/module/first_order_filter.cpp.obj"
   "E:/Robomaster/Chassis_Board/module/motor_3508.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/module/motor_3508.cpp.obj"
   "E:/Robomaster/Chassis_Board/module/motor_6020.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/module/motor_6020.cpp.obj"
   "E:/Robomaster/Chassis_Board/module/motor_measure.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/module/motor_measure.cpp.obj"
   "E:/Robomaster/Chassis_Board/module/pid.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/module/pid.cpp.obj"
+  "E:/Robomaster/Chassis_Board/module/power_control.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/module/power_control.cpp.obj"
   "E:/Robomaster/Chassis_Board/module/referee.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/module/referee.cpp.obj"
   "E:/Robomaster/Chassis_Board/module/remote_control.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/module/remote_control.cpp.obj"
+  "E:/Robomaster/Chassis_Board/module/super_cap.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/module/super_cap.cpp.obj"
   "E:/Robomaster/Chassis_Board/module/user_lib.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/module/user_lib.cpp.obj"
-  "E:/Robomaster/Chassis_Board/module/vision.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/module/vision.cpp.obj"
-  "E:/Robomaster/Chassis_Board/module/vision_data.cpp" "E:/Robomaster/Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/module/vision_data.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

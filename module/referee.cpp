@@ -7,11 +7,20 @@
 referee::referee() {
     Robot_ID = robot_state.robot_id;//获取机器人ID
     Camp = judge_camp();//获取机器人阵营
+    Robot_Client_ID = get_client_id();
 }
 
-robot_camp referee::judge_camp() const {
+robot_camp referee::judge_camp() {
     if (Robot_ID > 10)
         return BLUE;
     else
         return RED;
+}
+
+uint16_t referee::get_client_id() const {
+    if (Camp == BLUE) {
+        return 0x0110 + (Robot_ID - 0x10);//计算客户端ID
+    } else {
+        return 0x0100 + Robot_ID;//计算客户端ID
+    }
 }

@@ -729,7 +729,7 @@ EventBits_t xEventGroupGetBitsFromISR( EventGroupHandle_t xEventGroup ) PRIVILEG
 	void xEventGroupDelete( EventGroupHandle_t xEventGroup );
  </pre>
  *
- * Delete an event group that was previously created by a call to
+ * Delete_Graph an event group that was previously created by a call to
  * xEventGroupCreate().  Tasks that are blocked on the event group will be
  * unblocked and obtain 0 as the event group's value.
  *

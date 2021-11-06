@@ -26,7 +26,7 @@
  *  
  *----------------------------------------------------------------------------
  *
- * Portions Copyright © 2016 STMicroelectronics International N.V. All rights reserved.
+ * Portions Copyright ï¿½ 2016 STMicroelectronics International N.V. All rights reserved.
  * Portions Copyright (c) 2013 ARM LIMITED
  * All rights reserved.
  * Redistribution and use in source and binary forms, with or without
@@ -587,7 +587,7 @@ osStatus osTimerStart (osTimerId timer_id, uint32_t millisec);
 /// \note MUST REMAIN UNCHANGED: \b osTimerStop shall be consistent in every CMSIS-RTOS.
 osStatus osTimerStop (osTimerId timer_id);
 
-/// Delete a timer that was created by \ref osTimerCreate.
+/// Delete_Graph a timer that was created by \ref osTimerCreate.
 /// \param[in]     timer_id      timer ID obtained by \ref osTimerCreate.
 /// \return status code that indicates the execution status of the function.
 /// \note MUST REMAIN UNCHANGED: \b osTimerDelete shall be consistent in every CMSIS-RTOS.
@@ -669,7 +669,7 @@ osStatus osMutexWait (osMutexId mutex_id, uint32_t millisec);
 /// \note MUST REMAIN UNCHANGED: \b osMutexRelease shall be consistent in every CMSIS-RTOS.
 osStatus osMutexRelease (osMutexId mutex_id);
 
-/// Delete a Mutex that was created by \ref osMutexCreate.
+/// Delete_Graph a Mutex that was created by \ref osMutexCreate.
 /// \param[in]     mutex_id      mutex ID obtained by \ref osMutexCreate.
 /// \return status code that indicates the execution status of the function.
 /// \note MUST REMAIN UNCHANGED: \b osMutexDelete shall be consistent in every CMSIS-RTOS.
@@ -729,7 +729,7 @@ int32_t osSemaphoreWait (osSemaphoreId semaphore_id, uint32_t millisec);
 /// \note MUST REMAIN UNCHANGED: \b osSemaphoreRelease shall be consistent in every CMSIS-RTOS.
 osStatus osSemaphoreRelease (osSemaphoreId semaphore_id);
 
-/// Delete a Semaphore that was created by \ref osSemaphoreCreate.
+/// Delete_Graph a Semaphore that was created by \ref osSemaphoreCreate.
 /// \param[in]     semaphore_id  semaphore object referenced with \ref osSemaphoreCreate.
 /// \return status code that indicates the execution status of the function.
 /// \note MUST REMAIN UNCHANGED: \b osSemaphoreDelete shall be consistent in every CMSIS-RTOS.
@@ -1029,7 +1029,7 @@ uint32_t osMessageWaiting(osMessageQId queue_id);
 uint32_t osMessageAvailableSpace(osMessageQId queue_id);
 
 /**
-* @brief Delete a Message Queue
+* @brief Delete_Graph a Message Queue
 * @param  queue_id  message queue ID obtained with \ref osMessageCreate.
 * @retval  status code that indicates the execution status of the function.
 */
