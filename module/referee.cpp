@@ -17,7 +17,7 @@ robot_camp referee::judge_camp() {
         return RED;
 }
 
-uint16_t referee::get_client_id() const {
+uint16_t referee::get_client_id() {
     if (Camp == BLUE) {
         return 0x0110 + (Robot_ID - 0x10);//计算客户端ID
     } else {
