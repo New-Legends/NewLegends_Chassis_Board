@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+../APP/CAN_receive.h
+motor_measure.h
+-
+struct_typedef.h
+../APP/struct_typedef.h
+main.h
+../APP/main.h
+
 ../APP/struct_typedef.h
 
 ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
@@ -364,27 +372,65 @@ stm32f4xx_hal_dfsdm.h
 stm32f4xx_hal_lptim.h
 ../Inc/stm32f4xx_hal_lptim.h
 
+../hardware/bsp_usart.h
+struct_typedef.h
+../hardware/struct_typedef.h
+
+../module/first_order_filter.h
+struct_typedef.h
+../module/struct_typedef.h
+
+../module/motor_measure.h
+struct_typedef.h
+../module/struct_typedef.h
+
 ../protocol/protocol.h
 struct_typedef.h
 ../protocol/struct_typedef.h
 
-E:/NewLegend_Chassis_Board/module/UI.cpp
-UI.h
-E:/NewLegend_Chassis_Board/module/UI.h
-
-E:/NewLegend_Chassis_Board/module/UI.h
+E:/NewLegend_Chassis_Board/module/M_Chassis.cpp
+first_order_filter.h
+-
+M_Chassis.h
+E:/NewLegend_Chassis_Board/module/M_Chassis.h
+user_lib.h
+E:/NewLegend_Chassis_Board/module/user_lib.h
+cmath
+-
+CAN_receive.h
+E:/NewLegend_Chassis_Board/module/CAN_receive.h
 referee.h
 E:/NewLegend_Chassis_Board/module/referee.h
+
+E:/NewLegend_Chassis_Board/module/M_Chassis.h
+motor_3508.h
+E:/NewLegend_Chassis_Board/module/motor_3508.h
+pid.h
+E:/NewLegend_Chassis_Board/module/pid.h
+first_order_filter.h
+E:/NewLegend_Chassis_Board/module/first_order_filter.h
+motor_6020.h
+E:/NewLegend_Chassis_Board/module/motor_6020.h
+remote_control.h
+E:/NewLegend_Chassis_Board/module/remote_control.h
+CAN_receive.h
+E:/NewLegend_Chassis_Board/module/CAN_receive.h
+
+E:/NewLegend_Chassis_Board/module/motor_3508.h
+motor_measure.h
+E:/NewLegend_Chassis_Board/module/motor_measure.h
+
+E:/NewLegend_Chassis_Board/module/motor_6020.h
+pid.h
+E:/NewLegend_Chassis_Board/module/pid.h
+motor_measure.h
+E:/NewLegend_Chassis_Board/module/motor_measure.h
 struct_typedef.h
 E:/NewLegend_Chassis_Board/module/struct_typedef.h
-vector
--
-string
--
 
-E:/NewLegend_Chassis_Board/module/referee.cpp
-referee.h
-E:/NewLegend_Chassis_Board/module/referee.h
+E:/NewLegend_Chassis_Board/module/pid.h
+struct_typedef.h
+E:/NewLegend_Chassis_Board/module/struct_typedef.h
 
 E:/NewLegend_Chassis_Board/module/referee.h
 struct_typedef.h
@@ -397,4 +443,20 @@ E:/NewLegend_Chassis_Board/module/referee_data.h
 E:/NewLegend_Chassis_Board/module/referee_data.h
 main.h
 E:/NewLegend_Chassis_Board/module/main.h
+
+E:/NewLegend_Chassis_Board/module/remote_control.h
+cstdint
+-
+remote_data.h
+E:/NewLegend_Chassis_Board/module/remote_data.h
+
+E:/NewLegend_Chassis_Board/module/remote_data.h
+struct_typedef.h
+E:/NewLegend_Chassis_Board/module/struct_typedef.h
+bsp_usart.h
+E:/NewLegend_Chassis_Board/module/bsp_usart.h
+
+E:/NewLegend_Chassis_Board/module/user_lib.h
+struct_typedef.h
+E:/NewLegend_Chassis_Board/module/struct_typedef.h
 

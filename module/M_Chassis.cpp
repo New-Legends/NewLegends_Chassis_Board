@@ -7,9 +7,10 @@
 #include "user_lib.h"
 #include <cmath>
 #include "CAN_receive.h"
-
+#include "referee.h"
 //#define CHASSIS_NO_CURRENT //测试时关闭底盘电源
 
+extern referee Referee;
 
 void M_Chassis::init() {
     //底盘速度环pid值
@@ -400,11 +401,76 @@ void M_Chassis::pid_calc() {
 }
 
 void M_Chassis::power_ctrl() {
+    float chassis_power = 0.0f;
+    uint16_t chassis_power_buffer = 0.0f;
+    uint16_t max_power_limit = 0.0f;
+    uint16_t warning_power_buff = 0.0f;
+    uint16_t warning_power = 0.0f;
 
+    fp32 total_current_limit = 0.0f;
+    fp32 total_current = 0.0f;
+    uint8_t robot_id = *Referee.Robot_ID;
+
+    if (robot_id == RED_ENGINEER || robot_id == BLUE_ENGINEER || robot_id == 0) {
+        total_current_limit = NO_JUDGE_TOTAL_CURRENT_LIMIT;
+    } else {
+        chassis_power = Referee.get_chassis_power();
+        chassis_power_buffer = Referee.get_chassis_power_buffer();
+        max_power_limit = Referee.get_chassis_power_limit();
+        warning_power_buff = max_power_limit / 2 - 5;
+        warning_power = warning_power_buff - 10;
+        //缓冲总共为60J  30j时表示缓存已经用掉了一半需要开始减速
+        if (chassis_power_buffer < warning_power_buff) {
+            fp32 power_scale;
+            //在缓存还大于5的时候线性地降低速度
+            if (chassis_power_buffer > 5.0f) {
+                //缩小WARNING_POWER_BUFF
+                power_scale = chassis_power_buffer / warning_power_buff;
+            } else {//当缓存不大于5时直接降低速度到指定值
+                power_scale = 5.0f / warning_power_buff;
+            }
+            //计算缩小的值
+            total_current_limit = BUFFER_TOTAL_CURRENT_LIMIT * power_scale;
+        } else {
+            if (chassis_power > warning_power) {
+                fp32 power_scale;
+                //功率小于限制
+                if (chassis_power < max_power_limit) {
+                    //缩小
+                    power_scale = (max_power_limit - chassis_power) / (max_power_limit - warning_power);
+
+                } else {
+                    power_scale = 0.0f;
+                }
+
+                total_current_limit = BUFFER_TOTAL_CURRENT_LIMIT + POWER_TOTAL_CURRENT_LIMIT * power_scale;
+            }
+                //功率小于WARNING_POWER
+            else {
+                total_current_limit = BUFFER_TOTAL_CURRENT_LIMIT + POWER_TOTAL_CURRENT_LIMIT;
+            }
+        }
+
+
+        total_current = 0.0f;
+        //计算原本电机电流设定
+        for (uint8_t i = 0; i < 4; i++) {
+            total_current += fabs(chassis_speed_pid[i].out);
+        }
+
+
+        if (total_current > total_current_limit) {
+            fp32 current_scale = total_current_limit / total_current;
+            chassis_speed_pid[0].out *= current_scale;
+            chassis_speed_pid[1].out *= current_scale;
+            chassis_speed_pid[2].out *= current_scale;
+            chassis_speed_pid[3].out *= current_scale;
+        }
+    }
 }
 
 void M_Chassis::go() {
-    for(int i = 0; i < 4; i++) {
+    for (int i = 0; i < 4; i++) {
 #ifdef CHASSIS_NO_CURRENT
         motor_chassis[i].give_current = 0;
 #else
@@ -412,7 +478,7 @@ void M_Chassis::go() {
 #endif
     }
     Chassis_Can->CAN_cmd_chassis(motor_chassis[0].give_current, motor_chassis[1].give_current,
-                        motor_chassis[2].give_current, motor_chassis[3].give_current);
+                                 motor_chassis[2].give_current, motor_chassis[3].give_current);
 }
 
 

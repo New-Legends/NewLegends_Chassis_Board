@@ -3425,11 +3425,14 @@ CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.obj
  ../hardware/bsp_usart.h
  ../module/first_order_filter.h
  ../module/motor_measure.h
+ ../protocol/protocol.h
  E:/NewLegend_Chassis_Board/module/M_Chassis.cpp
  E:/NewLegend_Chassis_Board/module/M_Chassis.h
  E:/NewLegend_Chassis_Board/module/motor_3508.h
  E:/NewLegend_Chassis_Board/module/motor_6020.h
  E:/NewLegend_Chassis_Board/module/pid.h
+ E:/NewLegend_Chassis_Board/module/referee.h
+ E:/NewLegend_Chassis_Board/module/referee_data.h
  E:/NewLegend_Chassis_Board/module/remote_control.h
  E:/NewLegend_Chassis_Board/module/remote_data.h
  E:/NewLegend_Chassis_Board/module/user_lib.h

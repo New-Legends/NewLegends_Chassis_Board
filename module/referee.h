@@ -35,6 +35,7 @@ extern ext_dart_client_cmd_t dart_client_cmd;
 extern ext_student_interactive_data_t student_interactive_data_t;
 
 static uint16_t RECEIVER_ID;
+
 class referee {
 public:
     const frame_header_struct_t *Receive_header = &referee_receive_header;//接受报文
@@ -69,9 +70,16 @@ public:
     uint16_t Robot_Client_ID;
     robot_camp Camp;
 
-    [[nodiscard]] robot_camp judge_camp();
 
-    [[nodiscard]] uint16_t get_client_id();
+    [[nodiscard]] float get_chassis_power() const;
+
+    [[nodiscard]] uint16_t get_chassis_power_buffer() const;
+
+    [[nodiscard]] uint16_t get_chassis_power_limit() const;
+
+    [[nodiscard]] robot_camp judge_camp() const;
+
+    [[nodiscard]] uint16_t get_client_id() const;
 
     referee();
 };

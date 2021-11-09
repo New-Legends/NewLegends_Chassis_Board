@@ -3424,11 +3424,14 @@ CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.obj: ../Inc/stm32f4xx_hal_
 CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.obj: ../hardware/bsp_usart.h
 CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.obj: ../module/first_order_filter.h
 CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.obj: ../module/motor_measure.h
+CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.obj: ../protocol/protocol.h
 CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.obj: ../module/M_Chassis.cpp
 CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.obj: ../module/M_Chassis.h
 CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.obj: ../module/motor_3508.h
 CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.obj: ../module/motor_6020.h
 CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.obj: ../module/pid.h
+CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.obj: ../module/referee.h
+CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.obj: ../module/referee_data.h
 CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.obj: ../module/remote_control.h
 CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.obj: ../module/remote_data.h
 CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.obj: ../module/user_lib.h
