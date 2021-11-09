@@ -37,7 +37,6 @@ extern ext_student_interactive_data_t student_interactive_data_t;
 
 static uint8_t Robot_ID;
 static uint16_t Robot_Client_ID;
-static robot_camp Camp;
 
 class referee {
 public:
@@ -67,9 +66,12 @@ public:
     const ext_dart_client_cmd_t *Dart_client_cmd = &dart_client_cmd;//飞镖发射架状态
     //const ext_student_interactive_data_t student_interactive_data_t;
 
+    robot_camp Camp;
+
+
     [[nodiscard]] static robot_camp judge_camp();
 
-    [[nodiscard]] static uint16_t get_client_id();
+    [[nodiscard]] uint16_t get_client_id() const;
 
     referee();
 };

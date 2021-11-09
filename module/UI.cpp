@@ -172,8 +172,8 @@ int UI::All_ReFresh() {
 
     data_head.Data_ID = UI_Data_ID_Draw1;
 
-    data_head.Sender_ID = SENDER_ID;
-    data_head.Receiver_ID = RECEIVER_ID;                          //填充操作数据
+    data_head.Sender_ID = Robot_ID;
+    data_head.Receiver_ID = Robot_Client_ID;                          //填充操作数据
 
     frame_point = (unsigned char *) &frame_head;
     frame_tail = Get_CRC16_Check_Sum_UI(frame_point, sizeof(frame_head), frame_tail);
