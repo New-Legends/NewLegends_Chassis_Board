@@ -578,39 +578,39 @@ main.h
 struct_typedef.h
 ../protocol/struct_typedef.h
 
-E:/Robomaster/Chassis_Board/APP/UI_task.cpp
+E:/NewLegend_Chassis_Board/APP/UI_task.cpp
 UI_task.h
-E:/Robomaster/Chassis_Board/APP/UI_task.h
+E:/NewLegend_Chassis_Board/APP/UI_task.h
 UI.h
-E:/Robomaster/Chassis_Board/APP/UI.h
+E:/NewLegend_Chassis_Board/APP/UI.h
 
-E:/Robomaster/Chassis_Board/APP/UI_task.h
+E:/NewLegend_Chassis_Board/APP/UI_task.h
 cmsis_os.h
-E:/Robomaster/Chassis_Board/APP/cmsis_os.h
+E:/NewLegend_Chassis_Board/APP/cmsis_os.h
 
-E:/Robomaster/Chassis_Board/module/UI.cpp
+E:/NewLegend_Chassis_Board/module/UI.cpp
 UI.h
-E:/Robomaster/Chassis_Board/module/UI.h
+E:/NewLegend_Chassis_Board/module/UI.h
 
-E:/Robomaster/Chassis_Board/module/UI.h
+E:/NewLegend_Chassis_Board/module/UI.h
 referee.h
-E:/Robomaster/Chassis_Board/module/referee.h
+E:/NewLegend_Chassis_Board/module/referee.h
 struct_typedef.h
-E:/Robomaster/Chassis_Board/module/struct_typedef.h
+E:/NewLegend_Chassis_Board/module/struct_typedef.h
 vector
 -
 string
 -
 
-E:/Robomaster/Chassis_Board/module/referee.h
+E:/NewLegend_Chassis_Board/module/referee.h
 struct_typedef.h
-E:/Robomaster/Chassis_Board/module/struct_typedef.h
+E:/NewLegend_Chassis_Board/module/struct_typedef.h
 protocol.h
-E:/Robomaster/Chassis_Board/module/protocol.h
+E:/NewLegend_Chassis_Board/module/protocol.h
 referee_data.h
-E:/Robomaster/Chassis_Board/module/referee_data.h
+E:/NewLegend_Chassis_Board/module/referee_data.h
 
-E:/Robomaster/Chassis_Board/module/referee_data.h
+E:/NewLegend_Chassis_Board/module/referee_data.h
 main.h
-E:/Robomaster/Chassis_Board/module/main.h
+E:/NewLegend_Chassis_Board/module/main.h
 

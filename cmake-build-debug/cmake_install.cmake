@@ -1,4 +1,4 @@
-# Install script for directory: E:/Robomaster/Chassis_Board
+# Install script for directory: E:/NewLegend_Chassis_Board
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/Robomaster/Chassis_Board/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/NewLegend_Chassis_Board/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

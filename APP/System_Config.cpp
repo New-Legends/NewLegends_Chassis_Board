@@ -34,6 +34,6 @@ TaskHandle_t UI_Task_Handle;
 void Task_start(void) {
     /* Syetem Service init --------------*/
     /* Applications Init ----------------*/
-    xTaskCreate(chassis_task, "chassis_task", Normal_Stack_Size, nullptr, PriorityHigh, &Chassis_Task_Handle);
-    xTaskCreate(UI_task, "UI_task", Normal_Stack_Size, nullptr, PriorityHigh, &UI_Task_Handle);
+    xTaskCreate(chassis_task, "chassis_task", Normal_Stack_Size, nullptr, PriorityAboveNormal, &Chassis_Task_Handle);
+    xTaskCreate(UI_task, "UI_task", Large_Stack_Size, nullptr, PriorityNormal, &UI_Task_Handle);
 }

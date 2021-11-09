@@ -61,10 +61,10 @@ RM = "D:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Robomaster\Chassis_Board
+CMAKE_SOURCE_DIR = E:\NewLegend_Chassis_Board
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Robomaster\Chassis_Board\cmake-build-debug
+CMAKE_BINARY_DIR = E:\NewLegend_Chassis_Board\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Classis_Board.elf.dir/depend.make
@@ -77,1191 +77,1191 @@ include CMakeFiles/Classis_Board.elf.dir/flags.make
 
 CMakeFiles/Classis_Board.elf.dir/APP/CAN_receive.cpp.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/APP/CAN_receive.cpp.obj: ../APP/CAN_receive.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Classis_Board.elf.dir/APP/CAN_receive.cpp.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\APP\CAN_receive.cpp.obj -c E:\Robomaster\Chassis_Board\APP\CAN_receive.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Classis_Board.elf.dir/APP/CAN_receive.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\APP\CAN_receive.cpp.obj -c E:\NewLegend_Chassis_Board\APP\CAN_receive.cpp
 
 CMakeFiles/Classis_Board.elf.dir/APP/CAN_receive.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Classis_Board.elf.dir/APP/CAN_receive.cpp.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Robomaster\Chassis_Board\APP\CAN_receive.cpp > CMakeFiles\Classis_Board.elf.dir\APP\CAN_receive.cpp.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\NewLegend_Chassis_Board\APP\CAN_receive.cpp > CMakeFiles\Classis_Board.elf.dir\APP\CAN_receive.cpp.i
 
 CMakeFiles/Classis_Board.elf.dir/APP/CAN_receive.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Classis_Board.elf.dir/APP/CAN_receive.cpp.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Robomaster\Chassis_Board\APP\CAN_receive.cpp -o CMakeFiles\Classis_Board.elf.dir\APP\CAN_receive.cpp.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\NewLegend_Chassis_Board\APP\CAN_receive.cpp -o CMakeFiles\Classis_Board.elf.dir\APP\CAN_receive.cpp.s
 
 CMakeFiles/Classis_Board.elf.dir/APP/System_Config.cpp.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/APP/System_Config.cpp.obj: ../APP/System_Config.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Classis_Board.elf.dir/APP/System_Config.cpp.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\APP\System_Config.cpp.obj -c E:\Robomaster\Chassis_Board\APP\System_Config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Classis_Board.elf.dir/APP/System_Config.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\APP\System_Config.cpp.obj -c E:\NewLegend_Chassis_Board\APP\System_Config.cpp
 
 CMakeFiles/Classis_Board.elf.dir/APP/System_Config.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Classis_Board.elf.dir/APP/System_Config.cpp.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Robomaster\Chassis_Board\APP\System_Config.cpp > CMakeFiles\Classis_Board.elf.dir\APP\System_Config.cpp.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\NewLegend_Chassis_Board\APP\System_Config.cpp > CMakeFiles\Classis_Board.elf.dir\APP\System_Config.cpp.i
 
 CMakeFiles/Classis_Board.elf.dir/APP/System_Config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Classis_Board.elf.dir/APP/System_Config.cpp.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Robomaster\Chassis_Board\APP\System_Config.cpp -o CMakeFiles\Classis_Board.elf.dir\APP\System_Config.cpp.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\NewLegend_Chassis_Board\APP\System_Config.cpp -o CMakeFiles\Classis_Board.elf.dir\APP\System_Config.cpp.s
 
 CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj: ../APP/UI_task.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\APP\UI_task.cpp.obj -c E:\Robomaster\Chassis_Board\APP\UI_task.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\APP\UI_task.cpp.obj -c E:\NewLegend_Chassis_Board\APP\UI_task.cpp
 
 CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Robomaster\Chassis_Board\APP\UI_task.cpp > CMakeFiles\Classis_Board.elf.dir\APP\UI_task.cpp.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\NewLegend_Chassis_Board\APP\UI_task.cpp > CMakeFiles\Classis_Board.elf.dir\APP\UI_task.cpp.i
 
 CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Robomaster\Chassis_Board\APP\UI_task.cpp -o CMakeFiles\Classis_Board.elf.dir\APP\UI_task.cpp.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\NewLegend_Chassis_Board\APP\UI_task.cpp -o CMakeFiles\Classis_Board.elf.dir\APP\UI_task.cpp.s
 
 CMakeFiles/Classis_Board.elf.dir/APP/chassis_task.cpp.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/APP/chassis_task.cpp.obj: ../APP/chassis_task.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Classis_Board.elf.dir/APP/chassis_task.cpp.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\APP\chassis_task.cpp.obj -c E:\Robomaster\Chassis_Board\APP\chassis_task.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Classis_Board.elf.dir/APP/chassis_task.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\APP\chassis_task.cpp.obj -c E:\NewLegend_Chassis_Board\APP\chassis_task.cpp
 
 CMakeFiles/Classis_Board.elf.dir/APP/chassis_task.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Classis_Board.elf.dir/APP/chassis_task.cpp.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Robomaster\Chassis_Board\APP\chassis_task.cpp > CMakeFiles\Classis_Board.elf.dir\APP\chassis_task.cpp.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\NewLegend_Chassis_Board\APP\chassis_task.cpp > CMakeFiles\Classis_Board.elf.dir\APP\chassis_task.cpp.i
 
 CMakeFiles/Classis_Board.elf.dir/APP/chassis_task.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Classis_Board.elf.dir/APP/chassis_task.cpp.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Robomaster\Chassis_Board\APP\chassis_task.cpp -o CMakeFiles\Classis_Board.elf.dir\APP\chassis_task.cpp.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\NewLegend_Chassis_Board\APP\chassis_task.cpp -o CMakeFiles\Classis_Board.elf.dir\APP\chassis_task.cpp.s
 
 CMakeFiles/Classis_Board.elf.dir/APP/communication_task.cpp.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/APP/communication_task.cpp.obj: ../APP/communication_task.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Classis_Board.elf.dir/APP/communication_task.cpp.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\APP\communication_task.cpp.obj -c E:\Robomaster\Chassis_Board\APP\communication_task.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Classis_Board.elf.dir/APP/communication_task.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\APP\communication_task.cpp.obj -c E:\NewLegend_Chassis_Board\APP\communication_task.cpp
 
 CMakeFiles/Classis_Board.elf.dir/APP/communication_task.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Classis_Board.elf.dir/APP/communication_task.cpp.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Robomaster\Chassis_Board\APP\communication_task.cpp > CMakeFiles\Classis_Board.elf.dir\APP\communication_task.cpp.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\NewLegend_Chassis_Board\APP\communication_task.cpp > CMakeFiles\Classis_Board.elf.dir\APP\communication_task.cpp.i
 
 CMakeFiles/Classis_Board.elf.dir/APP/communication_task.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Classis_Board.elf.dir/APP/communication_task.cpp.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Robomaster\Chassis_Board\APP\communication_task.cpp -o CMakeFiles\Classis_Board.elf.dir\APP\communication_task.cpp.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\NewLegend_Chassis_Board\APP\communication_task.cpp -o CMakeFiles\Classis_Board.elf.dir\APP\communication_task.cpp.s
 
 CMakeFiles/Classis_Board.elf.dir/APP/referee_task.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/APP/referee_task.c.obj: ../APP/referee_task.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Classis_Board.elf.dir/APP/referee_task.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\APP\referee_task.c.obj -c E:\Robomaster\Chassis_Board\APP\referee_task.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Classis_Board.elf.dir/APP/referee_task.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\APP\referee_task.c.obj -c E:\NewLegend_Chassis_Board\APP\referee_task.c
 
 CMakeFiles/Classis_Board.elf.dir/APP/referee_task.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/APP/referee_task.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\APP\referee_task.c > CMakeFiles\Classis_Board.elf.dir\APP\referee_task.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\APP\referee_task.c > CMakeFiles\Classis_Board.elf.dir\APP\referee_task.c.i
 
 CMakeFiles/Classis_Board.elf.dir/APP/referee_task.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/APP/referee_task.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\APP\referee_task.c -o CMakeFiles\Classis_Board.elf.dir\APP\referee_task.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\APP\referee_task.c -o CMakeFiles\Classis_Board.elf.dir\APP\referee_task.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rng.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rng.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rng.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rng.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rng.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rng.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rng.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rng.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rng.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rng.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rng.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rng.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.obj -c E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.obj -c E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c > CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c -o CMakeFiles\Classis_Board.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c.obj -c E:\Robomaster\Chassis_Board\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c.obj -c E:\NewLegend_Chassis_Board\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c > CMakeFiles\Classis_Board.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c > CMakeFiles\Classis_Board.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c -o CMakeFiles\Classis_Board.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c -o CMakeFiles\Classis_Board.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.obj -c E:\Robomaster\Chassis_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.obj -c E:\NewLegend_Chassis_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c > CMakeFiles\Classis_Board.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c > CMakeFiles\Classis_Board.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c -o CMakeFiles\Classis_Board.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c -o CMakeFiles\Classis_Board.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.obj -c E:\Robomaster\Chassis_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.obj -c E:\NewLegend_Chassis_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c > CMakeFiles\Classis_Board.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c > CMakeFiles\Classis_Board.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c -o CMakeFiles\Classis_Board.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c -o CMakeFiles\Classis_Board.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.obj -c E:\Robomaster\Chassis_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.obj -c E:\NewLegend_Chassis_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c > CMakeFiles\Classis_Board.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c > CMakeFiles\Classis_Board.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c -o CMakeFiles\Classis_Board.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c -o CMakeFiles\Classis_Board.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj -c E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj -c E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c > CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c > CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj -c E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\croutine.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj -c E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\croutine.c
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\croutine.c > CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\croutine.c > CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\croutine.c -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\croutine.c -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj -c E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj -c E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c > CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c > CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj -c E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj -c E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\list.c
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\list.c > CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\list.c > CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\list.c -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\list.c -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj -c E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj -c E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c > CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c > CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj -c E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj -c E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c > CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c > CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj -c E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj -c E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\queue.c
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\queue.c > CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\queue.c > CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\queue.c -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\queue.c -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj -c E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj -c E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c > CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c > CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj -c E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\tasks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj -c E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\tasks.c
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\tasks.c > CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\tasks.c > CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\tasks.c -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\tasks.c -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj -c E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\timers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj -c E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\timers.c
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\timers.c > CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\timers.c > CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\timers.c -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Middlewares\Third_Party\FreeRTOS\Source\timers.c -o CMakeFiles\Classis_Board.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Src/adc.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Src/adc.c.obj: ../Src/adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/adc.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\adc.c.obj -c E:\Robomaster\Chassis_Board\Src\adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/adc.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\adc.c.obj -c E:\NewLegend_Chassis_Board\Src\adc.c
 
 CMakeFiles/Classis_Board.elf.dir/Src/adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Src/adc.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Src\adc.c > CMakeFiles\Classis_Board.elf.dir\Src\adc.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Src\adc.c > CMakeFiles\Classis_Board.elf.dir\Src\adc.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Src/adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Src/adc.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Src\adc.c -o CMakeFiles\Classis_Board.elf.dir\Src\adc.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Src\adc.c -o CMakeFiles\Classis_Board.elf.dir\Src\adc.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Src/can.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Src/can.c.obj: ../Src/can.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/can.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\can.c.obj -c E:\Robomaster\Chassis_Board\Src\can.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/can.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\can.c.obj -c E:\NewLegend_Chassis_Board\Src\can.c
 
 CMakeFiles/Classis_Board.elf.dir/Src/can.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Src/can.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Src\can.c > CMakeFiles\Classis_Board.elf.dir\Src\can.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Src\can.c > CMakeFiles\Classis_Board.elf.dir\Src\can.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Src/can.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Src/can.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Src\can.c -o CMakeFiles\Classis_Board.elf.dir\Src\can.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Src\can.c -o CMakeFiles\Classis_Board.elf.dir\Src\can.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Src/crc.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Src/crc.c.obj: ../Src/crc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/crc.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\crc.c.obj -c E:\Robomaster\Chassis_Board\Src\crc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/crc.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\crc.c.obj -c E:\NewLegend_Chassis_Board\Src\crc.c
 
 CMakeFiles/Classis_Board.elf.dir/Src/crc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Src/crc.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Src\crc.c > CMakeFiles\Classis_Board.elf.dir\Src\crc.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Src\crc.c > CMakeFiles\Classis_Board.elf.dir\Src\crc.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Src/crc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Src/crc.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Src\crc.c -o CMakeFiles\Classis_Board.elf.dir\Src\crc.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Src\crc.c -o CMakeFiles\Classis_Board.elf.dir\Src\crc.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Src/dma.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Src/dma.c.obj: ../Src/dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/dma.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\dma.c.obj -c E:\Robomaster\Chassis_Board\Src\dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/dma.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\dma.c.obj -c E:\NewLegend_Chassis_Board\Src\dma.c
 
 CMakeFiles/Classis_Board.elf.dir/Src/dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Src/dma.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Src\dma.c > CMakeFiles\Classis_Board.elf.dir\Src\dma.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Src\dma.c > CMakeFiles\Classis_Board.elf.dir\Src\dma.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Src/dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Src/dma.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Src\dma.c -o CMakeFiles\Classis_Board.elf.dir\Src\dma.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Src\dma.c -o CMakeFiles\Classis_Board.elf.dir\Src\dma.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Src/freertos.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Src/freertos.c.obj: ../Src/freertos.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/freertos.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\freertos.c.obj -c E:\Robomaster\Chassis_Board\Src\freertos.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/freertos.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\freertos.c.obj -c E:\NewLegend_Chassis_Board\Src\freertos.c
 
 CMakeFiles/Classis_Board.elf.dir/Src/freertos.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Src/freertos.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Src\freertos.c > CMakeFiles\Classis_Board.elf.dir\Src\freertos.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Src\freertos.c > CMakeFiles\Classis_Board.elf.dir\Src\freertos.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Src/freertos.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Src/freertos.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Src\freertos.c -o CMakeFiles\Classis_Board.elf.dir\Src\freertos.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Src\freertos.c -o CMakeFiles\Classis_Board.elf.dir\Src\freertos.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Src/gpio.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Src/gpio.c.obj: ../Src/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/gpio.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\gpio.c.obj -c E:\Robomaster\Chassis_Board\Src\gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/gpio.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\gpio.c.obj -c E:\NewLegend_Chassis_Board\Src\gpio.c
 
 CMakeFiles/Classis_Board.elf.dir/Src/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Src/gpio.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Src\gpio.c > CMakeFiles\Classis_Board.elf.dir\Src\gpio.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Src\gpio.c > CMakeFiles\Classis_Board.elf.dir\Src\gpio.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Src/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Src/gpio.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Src\gpio.c -o CMakeFiles\Classis_Board.elf.dir\Src\gpio.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Src\gpio.c -o CMakeFiles\Classis_Board.elf.dir\Src\gpio.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Src/i2c.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Src/i2c.c.obj: ../Src/i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/i2c.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\i2c.c.obj -c E:\Robomaster\Chassis_Board\Src\i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/i2c.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\i2c.c.obj -c E:\NewLegend_Chassis_Board\Src\i2c.c
 
 CMakeFiles/Classis_Board.elf.dir/Src/i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Src/i2c.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Src\i2c.c > CMakeFiles\Classis_Board.elf.dir\Src\i2c.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Src\i2c.c > CMakeFiles\Classis_Board.elf.dir\Src\i2c.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Src/i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Src/i2c.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Src\i2c.c -o CMakeFiles\Classis_Board.elf.dir\Src\i2c.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Src\i2c.c -o CMakeFiles\Classis_Board.elf.dir\Src\i2c.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Src/main.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Src/main.c.obj: ../Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/main.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\main.c.obj -c E:\Robomaster\Chassis_Board\Src\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/main.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\main.c.obj -c E:\NewLegend_Chassis_Board\Src\main.c
 
 CMakeFiles/Classis_Board.elf.dir/Src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Src/main.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Src\main.c > CMakeFiles\Classis_Board.elf.dir\Src\main.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Src\main.c > CMakeFiles\Classis_Board.elf.dir\Src\main.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Src/main.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Src\main.c -o CMakeFiles\Classis_Board.elf.dir\Src\main.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Src\main.c -o CMakeFiles\Classis_Board.elf.dir\Src\main.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Src/rng.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Src/rng.c.obj: ../Src/rng.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/rng.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\rng.c.obj -c E:\Robomaster\Chassis_Board\Src\rng.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/rng.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\rng.c.obj -c E:\NewLegend_Chassis_Board\Src\rng.c
 
 CMakeFiles/Classis_Board.elf.dir/Src/rng.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Src/rng.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Src\rng.c > CMakeFiles\Classis_Board.elf.dir\Src\rng.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Src\rng.c > CMakeFiles\Classis_Board.elf.dir\Src\rng.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Src/rng.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Src/rng.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Src\rng.c -o CMakeFiles\Classis_Board.elf.dir\Src\rng.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Src\rng.c -o CMakeFiles\Classis_Board.elf.dir\Src\rng.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Src/rtc.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Src/rtc.c.obj: ../Src/rtc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/rtc.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\rtc.c.obj -c E:\Robomaster\Chassis_Board\Src\rtc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/rtc.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\rtc.c.obj -c E:\NewLegend_Chassis_Board\Src\rtc.c
 
 CMakeFiles/Classis_Board.elf.dir/Src/rtc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Src/rtc.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Src\rtc.c > CMakeFiles\Classis_Board.elf.dir\Src\rtc.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Src\rtc.c > CMakeFiles\Classis_Board.elf.dir\Src\rtc.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Src/rtc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Src/rtc.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Src\rtc.c -o CMakeFiles\Classis_Board.elf.dir\Src\rtc.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Src\rtc.c -o CMakeFiles\Classis_Board.elf.dir\Src\rtc.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Src/spi.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Src/spi.c.obj: ../Src/spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/spi.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\spi.c.obj -c E:\Robomaster\Chassis_Board\Src\spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/spi.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\spi.c.obj -c E:\NewLegend_Chassis_Board\Src\spi.c
 
 CMakeFiles/Classis_Board.elf.dir/Src/spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Src/spi.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Src\spi.c > CMakeFiles\Classis_Board.elf.dir\Src\spi.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Src\spi.c > CMakeFiles\Classis_Board.elf.dir\Src\spi.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Src/spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Src/spi.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Src\spi.c -o CMakeFiles\Classis_Board.elf.dir\Src\spi.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Src\spi.c -o CMakeFiles\Classis_Board.elf.dir\Src\spi.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Src/stm32f4xx_hal_msp.c.obj: ../Src/stm32f4xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/stm32f4xx_hal_msp.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\stm32f4xx_hal_msp.c.obj -c E:\Robomaster\Chassis_Board\Src\stm32f4xx_hal_msp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/stm32f4xx_hal_msp.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\stm32f4xx_hal_msp.c.obj -c E:\NewLegend_Chassis_Board\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/Classis_Board.elf.dir/Src/stm32f4xx_hal_msp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Src/stm32f4xx_hal_msp.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Src\stm32f4xx_hal_msp.c > CMakeFiles\Classis_Board.elf.dir\Src\stm32f4xx_hal_msp.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Src\stm32f4xx_hal_msp.c > CMakeFiles\Classis_Board.elf.dir\Src\stm32f4xx_hal_msp.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Src/stm32f4xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Src/stm32f4xx_hal_msp.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Src\stm32f4xx_hal_msp.c -o CMakeFiles\Classis_Board.elf.dir\Src\stm32f4xx_hal_msp.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Src\stm32f4xx_hal_msp.c -o CMakeFiles\Classis_Board.elf.dir\Src\stm32f4xx_hal_msp.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Src/stm32f4xx_it.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Src/stm32f4xx_it.c.obj: ../Src/stm32f4xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/stm32f4xx_it.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\stm32f4xx_it.c.obj -c E:\Robomaster\Chassis_Board\Src\stm32f4xx_it.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/stm32f4xx_it.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\stm32f4xx_it.c.obj -c E:\NewLegend_Chassis_Board\Src\stm32f4xx_it.c
 
 CMakeFiles/Classis_Board.elf.dir/Src/stm32f4xx_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Src/stm32f4xx_it.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Src\stm32f4xx_it.c > CMakeFiles\Classis_Board.elf.dir\Src\stm32f4xx_it.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Src\stm32f4xx_it.c > CMakeFiles\Classis_Board.elf.dir\Src\stm32f4xx_it.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Src/stm32f4xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Src/stm32f4xx_it.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Src\stm32f4xx_it.c -o CMakeFiles\Classis_Board.elf.dir\Src\stm32f4xx_it.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Src\stm32f4xx_it.c -o CMakeFiles\Classis_Board.elf.dir\Src\stm32f4xx_it.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Src/syscalls.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Src/syscalls.c.obj: ../Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/syscalls.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\syscalls.c.obj -c E:\Robomaster\Chassis_Board\Src\syscalls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/syscalls.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\syscalls.c.obj -c E:\NewLegend_Chassis_Board\Src\syscalls.c
 
 CMakeFiles/Classis_Board.elf.dir/Src/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Src/syscalls.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Src\syscalls.c > CMakeFiles\Classis_Board.elf.dir\Src\syscalls.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Src\syscalls.c > CMakeFiles\Classis_Board.elf.dir\Src\syscalls.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Src/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Src/syscalls.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Src\syscalls.c -o CMakeFiles\Classis_Board.elf.dir\Src\syscalls.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Src\syscalls.c -o CMakeFiles\Classis_Board.elf.dir\Src\syscalls.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Src/system_stm32f4xx.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Src/system_stm32f4xx.c.obj: ../Src/system_stm32f4xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/system_stm32f4xx.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\system_stm32f4xx.c.obj -c E:\Robomaster\Chassis_Board\Src\system_stm32f4xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/system_stm32f4xx.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\system_stm32f4xx.c.obj -c E:\NewLegend_Chassis_Board\Src\system_stm32f4xx.c
 
 CMakeFiles/Classis_Board.elf.dir/Src/system_stm32f4xx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Src/system_stm32f4xx.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Src\system_stm32f4xx.c > CMakeFiles\Classis_Board.elf.dir\Src\system_stm32f4xx.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Src\system_stm32f4xx.c > CMakeFiles\Classis_Board.elf.dir\Src\system_stm32f4xx.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Src/system_stm32f4xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Src/system_stm32f4xx.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Src\system_stm32f4xx.c -o CMakeFiles\Classis_Board.elf.dir\Src\system_stm32f4xx.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Src\system_stm32f4xx.c -o CMakeFiles\Classis_Board.elf.dir\Src\system_stm32f4xx.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Src/tim.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Src/tim.c.obj: ../Src/tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/tim.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\tim.c.obj -c E:\Robomaster\Chassis_Board\Src\tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/tim.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\tim.c.obj -c E:\NewLegend_Chassis_Board\Src\tim.c
 
 CMakeFiles/Classis_Board.elf.dir/Src/tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Src/tim.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Src\tim.c > CMakeFiles\Classis_Board.elf.dir\Src\tim.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Src\tim.c > CMakeFiles\Classis_Board.elf.dir\Src\tim.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Src/tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Src/tim.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Src\tim.c -o CMakeFiles\Classis_Board.elf.dir\Src\tim.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Src\tim.c -o CMakeFiles\Classis_Board.elf.dir\Src\tim.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Src/usart.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Src/usart.c.obj: ../Src/usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/usart.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\usart.c.obj -c E:\Robomaster\Chassis_Board\Src\usart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/usart.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\usart.c.obj -c E:\NewLegend_Chassis_Board\Src\usart.c
 
 CMakeFiles/Classis_Board.elf.dir/Src/usart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Src/usart.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Src\usart.c > CMakeFiles\Classis_Board.elf.dir\Src\usart.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Src\usart.c > CMakeFiles\Classis_Board.elf.dir\Src\usart.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Src/usart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Src/usart.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Src\usart.c -o CMakeFiles\Classis_Board.elf.dir\Src\usart.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Src\usart.c -o CMakeFiles\Classis_Board.elf.dir\Src\usart.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Src/usb_device.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Src/usb_device.c.obj: ../Src/usb_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/usb_device.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\usb_device.c.obj -c E:\Robomaster\Chassis_Board\Src\usb_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/usb_device.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\usb_device.c.obj -c E:\NewLegend_Chassis_Board\Src\usb_device.c
 
 CMakeFiles/Classis_Board.elf.dir/Src/usb_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Src/usb_device.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Src\usb_device.c > CMakeFiles\Classis_Board.elf.dir\Src\usb_device.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Src\usb_device.c > CMakeFiles\Classis_Board.elf.dir\Src\usb_device.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Src/usb_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Src/usb_device.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Src\usb_device.c -o CMakeFiles\Classis_Board.elf.dir\Src\usb_device.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Src\usb_device.c -o CMakeFiles\Classis_Board.elf.dir\Src\usb_device.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Src/usbd_cdc_if.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Src/usbd_cdc_if.c.obj: ../Src/usbd_cdc_if.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/usbd_cdc_if.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\usbd_cdc_if.c.obj -c E:\Robomaster\Chassis_Board\Src\usbd_cdc_if.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/usbd_cdc_if.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\usbd_cdc_if.c.obj -c E:\NewLegend_Chassis_Board\Src\usbd_cdc_if.c
 
 CMakeFiles/Classis_Board.elf.dir/Src/usbd_cdc_if.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Src/usbd_cdc_if.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Src\usbd_cdc_if.c > CMakeFiles\Classis_Board.elf.dir\Src\usbd_cdc_if.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Src\usbd_cdc_if.c > CMakeFiles\Classis_Board.elf.dir\Src\usbd_cdc_if.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Src/usbd_cdc_if.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Src/usbd_cdc_if.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Src\usbd_cdc_if.c -o CMakeFiles\Classis_Board.elf.dir\Src\usbd_cdc_if.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Src\usbd_cdc_if.c -o CMakeFiles\Classis_Board.elf.dir\Src\usbd_cdc_if.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Src/usbd_conf.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Src/usbd_conf.c.obj: ../Src/usbd_conf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/usbd_conf.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\usbd_conf.c.obj -c E:\Robomaster\Chassis_Board\Src\usbd_conf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/usbd_conf.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\usbd_conf.c.obj -c E:\NewLegend_Chassis_Board\Src\usbd_conf.c
 
 CMakeFiles/Classis_Board.elf.dir/Src/usbd_conf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Src/usbd_conf.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Src\usbd_conf.c > CMakeFiles\Classis_Board.elf.dir\Src\usbd_conf.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Src\usbd_conf.c > CMakeFiles\Classis_Board.elf.dir\Src\usbd_conf.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Src/usbd_conf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Src/usbd_conf.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Src\usbd_conf.c -o CMakeFiles\Classis_Board.elf.dir\Src\usbd_conf.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Src\usbd_conf.c -o CMakeFiles\Classis_Board.elf.dir\Src\usbd_conf.c.s
 
 CMakeFiles/Classis_Board.elf.dir/Src/usbd_desc.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/Src/usbd_desc.c.obj: ../Src/usbd_desc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/usbd_desc.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\usbd_desc.c.obj -c E:\Robomaster\Chassis_Board\Src\usbd_desc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/Classis_Board.elf.dir/Src/usbd_desc.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\Src\usbd_desc.c.obj -c E:\NewLegend_Chassis_Board\Src\usbd_desc.c
 
 CMakeFiles/Classis_Board.elf.dir/Src/usbd_desc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/Src/usbd_desc.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\Src\usbd_desc.c > CMakeFiles\Classis_Board.elf.dir\Src\usbd_desc.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\Src\usbd_desc.c > CMakeFiles\Classis_Board.elf.dir\Src\usbd_desc.c.i
 
 CMakeFiles/Classis_Board.elf.dir/Src/usbd_desc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/Src/usbd_desc.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\Src\usbd_desc.c -o CMakeFiles\Classis_Board.elf.dir\Src\usbd_desc.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\Src\usbd_desc.c -o CMakeFiles\Classis_Board.elf.dir\Src\usbd_desc.c.s
 
 CMakeFiles/Classis_Board.elf.dir/hardware/bsp_can.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/hardware/bsp_can.c.obj: ../hardware/bsp_can.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/Classis_Board.elf.dir/hardware/bsp_can.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\hardware\bsp_can.c.obj -c E:\Robomaster\Chassis_Board\hardware\bsp_can.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/Classis_Board.elf.dir/hardware/bsp_can.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\hardware\bsp_can.c.obj -c E:\NewLegend_Chassis_Board\hardware\bsp_can.c
 
 CMakeFiles/Classis_Board.elf.dir/hardware/bsp_can.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/hardware/bsp_can.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\hardware\bsp_can.c > CMakeFiles\Classis_Board.elf.dir\hardware\bsp_can.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\hardware\bsp_can.c > CMakeFiles\Classis_Board.elf.dir\hardware\bsp_can.c.i
 
 CMakeFiles/Classis_Board.elf.dir/hardware/bsp_can.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/hardware/bsp_can.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\hardware\bsp_can.c -o CMakeFiles\Classis_Board.elf.dir\hardware\bsp_can.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\hardware\bsp_can.c -o CMakeFiles\Classis_Board.elf.dir\hardware\bsp_can.c.s
 
 CMakeFiles/Classis_Board.elf.dir/hardware/bsp_usart.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/hardware/bsp_usart.c.obj: ../hardware/bsp_usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/Classis_Board.elf.dir/hardware/bsp_usart.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\hardware\bsp_usart.c.obj -c E:\Robomaster\Chassis_Board\hardware\bsp_usart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/Classis_Board.elf.dir/hardware/bsp_usart.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\hardware\bsp_usart.c.obj -c E:\NewLegend_Chassis_Board\hardware\bsp_usart.c
 
 CMakeFiles/Classis_Board.elf.dir/hardware/bsp_usart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/hardware/bsp_usart.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\hardware\bsp_usart.c > CMakeFiles\Classis_Board.elf.dir\hardware\bsp_usart.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\hardware\bsp_usart.c > CMakeFiles\Classis_Board.elf.dir\hardware\bsp_usart.c.i
 
 CMakeFiles/Classis_Board.elf.dir/hardware/bsp_usart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/hardware/bsp_usart.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\hardware\bsp_usart.c -o CMakeFiles\Classis_Board.elf.dir\hardware\bsp_usart.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\hardware\bsp_usart.c -o CMakeFiles\Classis_Board.elf.dir\hardware\bsp_usart.c.s
 
 CMakeFiles/Classis_Board.elf.dir/hardware/buzzer.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/hardware/buzzer.c.obj: ../hardware/buzzer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/Classis_Board.elf.dir/hardware/buzzer.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\hardware\buzzer.c.obj -c E:\Robomaster\Chassis_Board\hardware\buzzer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/Classis_Board.elf.dir/hardware/buzzer.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\hardware\buzzer.c.obj -c E:\NewLegend_Chassis_Board\hardware\buzzer.c
 
 CMakeFiles/Classis_Board.elf.dir/hardware/buzzer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/hardware/buzzer.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\hardware\buzzer.c > CMakeFiles\Classis_Board.elf.dir\hardware\buzzer.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\hardware\buzzer.c > CMakeFiles\Classis_Board.elf.dir\hardware\buzzer.c.i
 
 CMakeFiles/Classis_Board.elf.dir/hardware/buzzer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/hardware/buzzer.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\hardware\buzzer.c -o CMakeFiles\Classis_Board.elf.dir\hardware\buzzer.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\hardware\buzzer.c -o CMakeFiles\Classis_Board.elf.dir\hardware\buzzer.c.s
 
 CMakeFiles/Classis_Board.elf.dir/hardware/led.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/hardware/led.c.obj: ../hardware/led.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/Classis_Board.elf.dir/hardware/led.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\hardware\led.c.obj -c E:\Robomaster\Chassis_Board\hardware\led.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/Classis_Board.elf.dir/hardware/led.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\hardware\led.c.obj -c E:\NewLegend_Chassis_Board\hardware\led.c
 
 CMakeFiles/Classis_Board.elf.dir/hardware/led.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/hardware/led.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\hardware\led.c > CMakeFiles\Classis_Board.elf.dir\hardware\led.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\hardware\led.c > CMakeFiles\Classis_Board.elf.dir\hardware\led.c.i
 
 CMakeFiles/Classis_Board.elf.dir/hardware/led.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/hardware/led.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\hardware\led.c -o CMakeFiles\Classis_Board.elf.dir\hardware\led.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\hardware\led.c -o CMakeFiles\Classis_Board.elf.dir\hardware\led.c.s
 
 CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.obj: ../module/M_Chassis.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\module\M_Chassis.cpp.obj -c E:\Robomaster\Chassis_Board\module\M_Chassis.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\module\M_Chassis.cpp.obj -c E:\NewLegend_Chassis_Board\module\M_Chassis.cpp
 
 CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Robomaster\Chassis_Board\module\M_Chassis.cpp > CMakeFiles\Classis_Board.elf.dir\module\M_Chassis.cpp.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\NewLegend_Chassis_Board\module\M_Chassis.cpp > CMakeFiles\Classis_Board.elf.dir\module\M_Chassis.cpp.i
 
 CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Classis_Board.elf.dir/module/M_Chassis.cpp.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Robomaster\Chassis_Board\module\M_Chassis.cpp -o CMakeFiles\Classis_Board.elf.dir\module\M_Chassis.cpp.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\NewLegend_Chassis_Board\module\M_Chassis.cpp -o CMakeFiles\Classis_Board.elf.dir\module\M_Chassis.cpp.s
 
 CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj: ../module/UI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\module\UI.cpp.obj -c E:\Robomaster\Chassis_Board\module\UI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\module\UI.cpp.obj -c E:\NewLegend_Chassis_Board\module\UI.cpp
 
 CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Robomaster\Chassis_Board\module\UI.cpp > CMakeFiles\Classis_Board.elf.dir\module\UI.cpp.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\NewLegend_Chassis_Board\module\UI.cpp > CMakeFiles\Classis_Board.elf.dir\module\UI.cpp.i
 
 CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Classis_Board.elf.dir/module/UI.cpp.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Robomaster\Chassis_Board\module\UI.cpp -o CMakeFiles\Classis_Board.elf.dir\module\UI.cpp.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\NewLegend_Chassis_Board\module\UI.cpp -o CMakeFiles\Classis_Board.elf.dir\module\UI.cpp.s
 
 CMakeFiles/Classis_Board.elf.dir/module/first_order_filter.cpp.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/module/first_order_filter.cpp.obj: ../module/first_order_filter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/Classis_Board.elf.dir/module/first_order_filter.cpp.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\module\first_order_filter.cpp.obj -c E:\Robomaster\Chassis_Board\module\first_order_filter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/Classis_Board.elf.dir/module/first_order_filter.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\module\first_order_filter.cpp.obj -c E:\NewLegend_Chassis_Board\module\first_order_filter.cpp
 
 CMakeFiles/Classis_Board.elf.dir/module/first_order_filter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Classis_Board.elf.dir/module/first_order_filter.cpp.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Robomaster\Chassis_Board\module\first_order_filter.cpp > CMakeFiles\Classis_Board.elf.dir\module\first_order_filter.cpp.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\NewLegend_Chassis_Board\module\first_order_filter.cpp > CMakeFiles\Classis_Board.elf.dir\module\first_order_filter.cpp.i
 
 CMakeFiles/Classis_Board.elf.dir/module/first_order_filter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Classis_Board.elf.dir/module/first_order_filter.cpp.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Robomaster\Chassis_Board\module\first_order_filter.cpp -o CMakeFiles\Classis_Board.elf.dir\module\first_order_filter.cpp.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\NewLegend_Chassis_Board\module\first_order_filter.cpp -o CMakeFiles\Classis_Board.elf.dir\module\first_order_filter.cpp.s
 
 CMakeFiles/Classis_Board.elf.dir/module/motor_3508.cpp.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/module/motor_3508.cpp.obj: ../module/motor_3508.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/Classis_Board.elf.dir/module/motor_3508.cpp.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\module\motor_3508.cpp.obj -c E:\Robomaster\Chassis_Board\module\motor_3508.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/Classis_Board.elf.dir/module/motor_3508.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\module\motor_3508.cpp.obj -c E:\NewLegend_Chassis_Board\module\motor_3508.cpp
 
 CMakeFiles/Classis_Board.elf.dir/module/motor_3508.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Classis_Board.elf.dir/module/motor_3508.cpp.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Robomaster\Chassis_Board\module\motor_3508.cpp > CMakeFiles\Classis_Board.elf.dir\module\motor_3508.cpp.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\NewLegend_Chassis_Board\module\motor_3508.cpp > CMakeFiles\Classis_Board.elf.dir\module\motor_3508.cpp.i
 
 CMakeFiles/Classis_Board.elf.dir/module/motor_3508.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Classis_Board.elf.dir/module/motor_3508.cpp.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Robomaster\Chassis_Board\module\motor_3508.cpp -o CMakeFiles\Classis_Board.elf.dir\module\motor_3508.cpp.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\NewLegend_Chassis_Board\module\motor_3508.cpp -o CMakeFiles\Classis_Board.elf.dir\module\motor_3508.cpp.s
 
 CMakeFiles/Classis_Board.elf.dir/module/motor_6020.cpp.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/module/motor_6020.cpp.obj: ../module/motor_6020.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/Classis_Board.elf.dir/module/motor_6020.cpp.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\module\motor_6020.cpp.obj -c E:\Robomaster\Chassis_Board\module\motor_6020.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/Classis_Board.elf.dir/module/motor_6020.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\module\motor_6020.cpp.obj -c E:\NewLegend_Chassis_Board\module\motor_6020.cpp
 
 CMakeFiles/Classis_Board.elf.dir/module/motor_6020.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Classis_Board.elf.dir/module/motor_6020.cpp.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Robomaster\Chassis_Board\module\motor_6020.cpp > CMakeFiles\Classis_Board.elf.dir\module\motor_6020.cpp.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\NewLegend_Chassis_Board\module\motor_6020.cpp > CMakeFiles\Classis_Board.elf.dir\module\motor_6020.cpp.i
 
 CMakeFiles/Classis_Board.elf.dir/module/motor_6020.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Classis_Board.elf.dir/module/motor_6020.cpp.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Robomaster\Chassis_Board\module\motor_6020.cpp -o CMakeFiles\Classis_Board.elf.dir\module\motor_6020.cpp.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\NewLegend_Chassis_Board\module\motor_6020.cpp -o CMakeFiles\Classis_Board.elf.dir\module\motor_6020.cpp.s
 
 CMakeFiles/Classis_Board.elf.dir/module/motor_measure.cpp.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/module/motor_measure.cpp.obj: ../module/motor_measure.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/Classis_Board.elf.dir/module/motor_measure.cpp.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\module\motor_measure.cpp.obj -c E:\Robomaster\Chassis_Board\module\motor_measure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/Classis_Board.elf.dir/module/motor_measure.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\module\motor_measure.cpp.obj -c E:\NewLegend_Chassis_Board\module\motor_measure.cpp
 
 CMakeFiles/Classis_Board.elf.dir/module/motor_measure.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Classis_Board.elf.dir/module/motor_measure.cpp.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Robomaster\Chassis_Board\module\motor_measure.cpp > CMakeFiles\Classis_Board.elf.dir\module\motor_measure.cpp.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\NewLegend_Chassis_Board\module\motor_measure.cpp > CMakeFiles\Classis_Board.elf.dir\module\motor_measure.cpp.i
 
 CMakeFiles/Classis_Board.elf.dir/module/motor_measure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Classis_Board.elf.dir/module/motor_measure.cpp.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Robomaster\Chassis_Board\module\motor_measure.cpp -o CMakeFiles\Classis_Board.elf.dir\module\motor_measure.cpp.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\NewLegend_Chassis_Board\module\motor_measure.cpp -o CMakeFiles\Classis_Board.elf.dir\module\motor_measure.cpp.s
 
 CMakeFiles/Classis_Board.elf.dir/module/pid.cpp.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/module/pid.cpp.obj: ../module/pid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/Classis_Board.elf.dir/module/pid.cpp.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\module\pid.cpp.obj -c E:\Robomaster\Chassis_Board\module\pid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/Classis_Board.elf.dir/module/pid.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\module\pid.cpp.obj -c E:\NewLegend_Chassis_Board\module\pid.cpp
 
 CMakeFiles/Classis_Board.elf.dir/module/pid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Classis_Board.elf.dir/module/pid.cpp.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Robomaster\Chassis_Board\module\pid.cpp > CMakeFiles\Classis_Board.elf.dir\module\pid.cpp.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\NewLegend_Chassis_Board\module\pid.cpp > CMakeFiles\Classis_Board.elf.dir\module\pid.cpp.i
 
 CMakeFiles/Classis_Board.elf.dir/module/pid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Classis_Board.elf.dir/module/pid.cpp.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Robomaster\Chassis_Board\module\pid.cpp -o CMakeFiles\Classis_Board.elf.dir\module\pid.cpp.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\NewLegend_Chassis_Board\module\pid.cpp -o CMakeFiles\Classis_Board.elf.dir\module\pid.cpp.s
 
 CMakeFiles/Classis_Board.elf.dir/module/power_control.cpp.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/module/power_control.cpp.obj: ../module/power_control.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/Classis_Board.elf.dir/module/power_control.cpp.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\module\power_control.cpp.obj -c E:\Robomaster\Chassis_Board\module\power_control.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/Classis_Board.elf.dir/module/power_control.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\module\power_control.cpp.obj -c E:\NewLegend_Chassis_Board\module\power_control.cpp
 
 CMakeFiles/Classis_Board.elf.dir/module/power_control.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Classis_Board.elf.dir/module/power_control.cpp.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Robomaster\Chassis_Board\module\power_control.cpp > CMakeFiles\Classis_Board.elf.dir\module\power_control.cpp.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\NewLegend_Chassis_Board\module\power_control.cpp > CMakeFiles\Classis_Board.elf.dir\module\power_control.cpp.i
 
 CMakeFiles/Classis_Board.elf.dir/module/power_control.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Classis_Board.elf.dir/module/power_control.cpp.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Robomaster\Chassis_Board\module\power_control.cpp -o CMakeFiles\Classis_Board.elf.dir\module\power_control.cpp.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\NewLegend_Chassis_Board\module\power_control.cpp -o CMakeFiles\Classis_Board.elf.dir\module\power_control.cpp.s
 
 CMakeFiles/Classis_Board.elf.dir/module/referee.cpp.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/module/referee.cpp.obj: ../module/referee.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/Classis_Board.elf.dir/module/referee.cpp.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\module\referee.cpp.obj -c E:\Robomaster\Chassis_Board\module\referee.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/Classis_Board.elf.dir/module/referee.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\module\referee.cpp.obj -c E:\NewLegend_Chassis_Board\module\referee.cpp
 
 CMakeFiles/Classis_Board.elf.dir/module/referee.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Classis_Board.elf.dir/module/referee.cpp.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Robomaster\Chassis_Board\module\referee.cpp > CMakeFiles\Classis_Board.elf.dir\module\referee.cpp.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\NewLegend_Chassis_Board\module\referee.cpp > CMakeFiles\Classis_Board.elf.dir\module\referee.cpp.i
 
 CMakeFiles/Classis_Board.elf.dir/module/referee.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Classis_Board.elf.dir/module/referee.cpp.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Robomaster\Chassis_Board\module\referee.cpp -o CMakeFiles\Classis_Board.elf.dir\module\referee.cpp.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\NewLegend_Chassis_Board\module\referee.cpp -o CMakeFiles\Classis_Board.elf.dir\module\referee.cpp.s
 
 CMakeFiles/Classis_Board.elf.dir/module/referee_data.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/module/referee_data.c.obj: ../module/referee_data.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/Classis_Board.elf.dir/module/referee_data.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\module\referee_data.c.obj -c E:\Robomaster\Chassis_Board\module\referee_data.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/Classis_Board.elf.dir/module/referee_data.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\module\referee_data.c.obj -c E:\NewLegend_Chassis_Board\module\referee_data.c
 
 CMakeFiles/Classis_Board.elf.dir/module/referee_data.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/module/referee_data.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\module\referee_data.c > CMakeFiles\Classis_Board.elf.dir\module\referee_data.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\module\referee_data.c > CMakeFiles\Classis_Board.elf.dir\module\referee_data.c.i
 
 CMakeFiles/Classis_Board.elf.dir/module/referee_data.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/module/referee_data.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\module\referee_data.c -o CMakeFiles\Classis_Board.elf.dir\module\referee_data.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\module\referee_data.c -o CMakeFiles\Classis_Board.elf.dir\module\referee_data.c.s
 
 CMakeFiles/Classis_Board.elf.dir/module/remote_control.cpp.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/module/remote_control.cpp.obj: ../module/remote_control.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/Classis_Board.elf.dir/module/remote_control.cpp.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\module\remote_control.cpp.obj -c E:\Robomaster\Chassis_Board\module\remote_control.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/Classis_Board.elf.dir/module/remote_control.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\module\remote_control.cpp.obj -c E:\NewLegend_Chassis_Board\module\remote_control.cpp
 
 CMakeFiles/Classis_Board.elf.dir/module/remote_control.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Classis_Board.elf.dir/module/remote_control.cpp.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Robomaster\Chassis_Board\module\remote_control.cpp > CMakeFiles\Classis_Board.elf.dir\module\remote_control.cpp.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\NewLegend_Chassis_Board\module\remote_control.cpp > CMakeFiles\Classis_Board.elf.dir\module\remote_control.cpp.i
 
 CMakeFiles/Classis_Board.elf.dir/module/remote_control.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Classis_Board.elf.dir/module/remote_control.cpp.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Robomaster\Chassis_Board\module\remote_control.cpp -o CMakeFiles\Classis_Board.elf.dir\module\remote_control.cpp.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\NewLegend_Chassis_Board\module\remote_control.cpp -o CMakeFiles\Classis_Board.elf.dir\module\remote_control.cpp.s
 
 CMakeFiles/Classis_Board.elf.dir/module/remote_data.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/module/remote_data.c.obj: ../module/remote_data.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/Classis_Board.elf.dir/module/remote_data.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\module\remote_data.c.obj -c E:\Robomaster\Chassis_Board\module\remote_data.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/Classis_Board.elf.dir/module/remote_data.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\module\remote_data.c.obj -c E:\NewLegend_Chassis_Board\module\remote_data.c
 
 CMakeFiles/Classis_Board.elf.dir/module/remote_data.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/module/remote_data.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\module\remote_data.c > CMakeFiles\Classis_Board.elf.dir\module\remote_data.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\module\remote_data.c > CMakeFiles\Classis_Board.elf.dir\module\remote_data.c.i
 
 CMakeFiles/Classis_Board.elf.dir/module/remote_data.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/module/remote_data.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\module\remote_data.c -o CMakeFiles\Classis_Board.elf.dir\module\remote_data.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\module\remote_data.c -o CMakeFiles\Classis_Board.elf.dir\module\remote_data.c.s
 
 CMakeFiles/Classis_Board.elf.dir/module/super_cap.cpp.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/module/super_cap.cpp.obj: ../module/super_cap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/Classis_Board.elf.dir/module/super_cap.cpp.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\module\super_cap.cpp.obj -c E:\Robomaster\Chassis_Board\module\super_cap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/Classis_Board.elf.dir/module/super_cap.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\module\super_cap.cpp.obj -c E:\NewLegend_Chassis_Board\module\super_cap.cpp
 
 CMakeFiles/Classis_Board.elf.dir/module/super_cap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Classis_Board.elf.dir/module/super_cap.cpp.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Robomaster\Chassis_Board\module\super_cap.cpp > CMakeFiles\Classis_Board.elf.dir\module\super_cap.cpp.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\NewLegend_Chassis_Board\module\super_cap.cpp > CMakeFiles\Classis_Board.elf.dir\module\super_cap.cpp.i
 
 CMakeFiles/Classis_Board.elf.dir/module/super_cap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Classis_Board.elf.dir/module/super_cap.cpp.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Robomaster\Chassis_Board\module\super_cap.cpp -o CMakeFiles\Classis_Board.elf.dir\module\super_cap.cpp.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\NewLegend_Chassis_Board\module\super_cap.cpp -o CMakeFiles\Classis_Board.elf.dir\module\super_cap.cpp.s
 
 CMakeFiles/Classis_Board.elf.dir/module/user_lib.cpp.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/module/user_lib.cpp.obj: ../module/user_lib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/Classis_Board.elf.dir/module/user_lib.cpp.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\module\user_lib.cpp.obj -c E:\Robomaster\Chassis_Board\module\user_lib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/Classis_Board.elf.dir/module/user_lib.cpp.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\module\user_lib.cpp.obj -c E:\NewLegend_Chassis_Board\module\user_lib.cpp
 
 CMakeFiles/Classis_Board.elf.dir/module/user_lib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Classis_Board.elf.dir/module/user_lib.cpp.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Robomaster\Chassis_Board\module\user_lib.cpp > CMakeFiles\Classis_Board.elf.dir\module\user_lib.cpp.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\NewLegend_Chassis_Board\module\user_lib.cpp > CMakeFiles\Classis_Board.elf.dir\module\user_lib.cpp.i
 
 CMakeFiles/Classis_Board.elf.dir/module/user_lib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Classis_Board.elf.dir/module/user_lib.cpp.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Robomaster\Chassis_Board\module\user_lib.cpp -o CMakeFiles\Classis_Board.elf.dir\module\user_lib.cpp.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\NewLegend_Chassis_Board\module\user_lib.cpp -o CMakeFiles\Classis_Board.elf.dir\module\user_lib.cpp.s
 
 CMakeFiles/Classis_Board.elf.dir/startup/startup_stm32f407xx.s.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/startup/startup_stm32f407xx.s.obj: ../startup/startup_stm32f407xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building ASM object CMakeFiles/Classis_Board.elf.dir/startup/startup_stm32f407xx.s.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\startup\startup_stm32f407xx.s.obj -c E:\Robomaster\Chassis_Board\startup\startup_stm32f407xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building ASM object CMakeFiles/Classis_Board.elf.dir/startup/startup_stm32f407xx.s.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\startup\startup_stm32f407xx.s.obj -c E:\NewLegend_Chassis_Board\startup\startup_stm32f407xx.s
 
 CMakeFiles/Classis_Board.elf.dir/support/CRC8_CRC16.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/support/CRC8_CRC16.c.obj: ../support/CRC8_CRC16.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/Classis_Board.elf.dir/support/CRC8_CRC16.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\support\CRC8_CRC16.c.obj -c E:\Robomaster\Chassis_Board\support\CRC8_CRC16.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/Classis_Board.elf.dir/support/CRC8_CRC16.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\support\CRC8_CRC16.c.obj -c E:\NewLegend_Chassis_Board\support\CRC8_CRC16.c
 
 CMakeFiles/Classis_Board.elf.dir/support/CRC8_CRC16.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/support/CRC8_CRC16.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\support\CRC8_CRC16.c > CMakeFiles\Classis_Board.elf.dir\support\CRC8_CRC16.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\support\CRC8_CRC16.c > CMakeFiles\Classis_Board.elf.dir\support\CRC8_CRC16.c.i
 
 CMakeFiles/Classis_Board.elf.dir/support/CRC8_CRC16.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/support/CRC8_CRC16.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\support\CRC8_CRC16.c -o CMakeFiles\Classis_Board.elf.dir\support\CRC8_CRC16.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\support\CRC8_CRC16.c -o CMakeFiles\Classis_Board.elf.dir\support\CRC8_CRC16.c.s
 
 CMakeFiles/Classis_Board.elf.dir/support/fifo.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/support/fifo.c.obj: ../support/fifo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/Classis_Board.elf.dir/support/fifo.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\support\fifo.c.obj -c E:\Robomaster\Chassis_Board\support\fifo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/Classis_Board.elf.dir/support/fifo.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\support\fifo.c.obj -c E:\NewLegend_Chassis_Board\support\fifo.c
 
 CMakeFiles/Classis_Board.elf.dir/support/fifo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/support/fifo.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\support\fifo.c > CMakeFiles\Classis_Board.elf.dir\support\fifo.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\support\fifo.c > CMakeFiles\Classis_Board.elf.dir\support\fifo.c.i
 
 CMakeFiles/Classis_Board.elf.dir/support/fifo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/support/fifo.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\support\fifo.c -o CMakeFiles\Classis_Board.elf.dir\support\fifo.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\support\fifo.c -o CMakeFiles\Classis_Board.elf.dir\support\fifo.c.s
 
 CMakeFiles/Classis_Board.elf.dir/support/mem_mang4.c.obj: CMakeFiles/Classis_Board.elf.dir/flags.make
 CMakeFiles/Classis_Board.elf.dir/support/mem_mang4.c.obj: ../support/mem_mang4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/Classis_Board.elf.dir/support/mem_mang4.c.obj"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\support\mem_mang4.c.obj -c E:\Robomaster\Chassis_Board\support\mem_mang4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/Classis_Board.elf.dir/support/mem_mang4.c.obj"
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Classis_Board.elf.dir\support\mem_mang4.c.obj -c E:\NewLegend_Chassis_Board\support\mem_mang4.c
 
 CMakeFiles/Classis_Board.elf.dir/support/mem_mang4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Classis_Board.elf.dir/support/mem_mang4.c.i"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Robomaster\Chassis_Board\support\mem_mang4.c > CMakeFiles\Classis_Board.elf.dir\support\mem_mang4.c.i
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\NewLegend_Chassis_Board\support\mem_mang4.c > CMakeFiles\Classis_Board.elf.dir\support\mem_mang4.c.i
 
 CMakeFiles/Classis_Board.elf.dir/support/mem_mang4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Classis_Board.elf.dir/support/mem_mang4.c.s"
-	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Robomaster\Chassis_Board\support\mem_mang4.c -o CMakeFiles\Classis_Board.elf.dir\support\mem_mang4.c.s
+	D:\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\NewLegend_Chassis_Board\support\mem_mang4.c -o CMakeFiles\Classis_Board.elf.dir\support\mem_mang4.c.s
 
 # Object files for target Classis_Board.elf
 Classis_Board_elf_OBJECTS = \
@@ -1456,12 +1456,12 @@ Classis_Board.elf: CMakeFiles/Classis_Board.elf.dir/support/mem_mang4.c.obj
 Classis_Board.elf: CMakeFiles/Classis_Board.elf.dir/build.make
 Classis_Board.elf: CMakeFiles/Classis_Board.elf.dir/objects1.rsp
 Classis_Board.elf: CMakeFiles/Classis_Board.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Linking CXX executable Classis_Board.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Linking CXX executable Classis_Board.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Classis_Board.elf.dir\link.txt --verbose=$(VERBOSE)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/Robomaster/Chassis_Board/cmake-build-debug/Classis_Board.hex"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/Robomaster/Chassis_Board/cmake-build-debug/Classis_Board.bin"
-	arm-none-eabi-objcopy -Oihex E:/Robomaster/Chassis_Board/cmake-build-debug/Classis_Board.elf E:/Robomaster/Chassis_Board/cmake-build-debug/Classis_Board.hex
-	arm-none-eabi-objcopy -Obinary E:/Robomaster/Chassis_Board/cmake-build-debug/Classis_Board.elf E:/Robomaster/Chassis_Board/cmake-build-debug/Classis_Board.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/NewLegend_Chassis_Board/cmake-build-debug/Classis_Board.hex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/NewLegend_Chassis_Board/cmake-build-debug/Classis_Board.bin"
+	arm-none-eabi-objcopy -Oihex E:/NewLegend_Chassis_Board/cmake-build-debug/Classis_Board.elf E:/NewLegend_Chassis_Board/cmake-build-debug/Classis_Board.hex
+	arm-none-eabi-objcopy -Obinary E:/NewLegend_Chassis_Board/cmake-build-debug/Classis_Board.elf E:/NewLegend_Chassis_Board/cmake-build-debug/Classis_Board.bin
 
 # Rule to build all files generated by this target.
 CMakeFiles/Classis_Board.elf.dir/build: Classis_Board.elf
@@ -1473,6 +1473,6 @@ CMakeFiles/Classis_Board.elf.dir/clean:
 .PHONY : CMakeFiles/Classis_Board.elf.dir/clean
 
 CMakeFiles/Classis_Board.elf.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\Robomaster\Chassis_Board E:\Robomaster\Chassis_Board E:\Robomaster\Chassis_Board\cmake-build-debug E:\Robomaster\Chassis_Board\cmake-build-debug E:\Robomaster\Chassis_Board\cmake-build-debug\CMakeFiles\Classis_Board.elf.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\NewLegend_Chassis_Board E:\NewLegend_Chassis_Board E:\NewLegend_Chassis_Board\cmake-build-debug E:\NewLegend_Chassis_Board\cmake-build-debug E:\NewLegend_Chassis_Board\cmake-build-debug\CMakeFiles\Classis_Board.elf.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Classis_Board.elf.dir/depend
 

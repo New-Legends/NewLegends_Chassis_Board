@@ -128,13 +128,13 @@ public:
 
     void Delete_Graph(uint8_t Del_Operate, uint8_t Del_Layer);
 
-    static void Draw_Line(Graph_Data image, std::string image_name, uint32_t Graph_Operate, uint32_t Graph_Layer,
+    static void Draw_Line(Graph_Data *image, std::string image_name, uint32_t Graph_Operate, uint32_t Graph_Layer,
                           uint32_t Graph_Color,
                           uint32_t Graph_Width, uint32_t Start_x, uint32_t Start_y, uint32_t End_x, uint32_t End_y);
 
-    static int All_ReFresh();
+    static int UI_ReFresh(Graph_Data imageData);
 
-    static void Draw_Circle(Graph_Data image, std::string image_name, uint32_t Graph_Operate, uint32_t Graph_Layer,
+    static void Draw_Circle(Graph_Data *image, std::string image_name, uint32_t Graph_Operate, uint32_t Graph_Layer,
                             uint32_t Graph_Color,
                             uint32_t Graph_Width, uint32_t Start_x, uint32_t Start_y, uint32_t Graph_Radius);
 
@@ -182,12 +182,12 @@ public:
         Start_y = Start_y_;
         End_x = End_x_;
         End_y = End_y_;
-        image = *new Graph_Data;
-
-        UI_Graph_v.push_back(image);
+        image = *new Graph_Data{0};
         image_name = "G" + std::to_string(Graph_Num);
-        UI_ImageName_v.push_back(image_name);
         Draw();
+        UI_Graph_v.push_back(image);
+        UI_ImageName_v.push_back(image_name);
+
     };
     uint32_t Operate{};
     uint32_t Layer{};
@@ -200,9 +200,11 @@ public:
     Graph_Data image{};
     std::string image_name;
 
-    void Draw() const;
+    void Draw();
 
     void Delete();
+
+    void Refresh() const;
 };
 
 class UI_Circle : public UI {
@@ -219,11 +221,11 @@ public:
         Radius = Radius_;
         Color = Color_;
         Width = Width_;
-        image = *new Graph_Data;
-        UI_Graph_v.push_back(image);
+        image = *new Graph_Data{0};
         image_name = "G" + std::to_string(Graph_Num);
-        UI_ImageName_v.push_back(image_name);
         Draw();
+        UI_Graph_v.push_back(image);
+        UI_ImageName_v.push_back(image_name);
     }
 
     Graph_Data image{};
@@ -239,6 +241,9 @@ public:
     void Draw();
 
     void Delete();
+
+    void Refresh() const;
+
 
 };
 

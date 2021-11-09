@@ -135,28 +135,27 @@ void UI::UI_SendByte(unsigned char ch) {
         Start_x、Start_x    开始坐标
         End_x、End_y   结束坐标
  * */
-void UI::Draw_Line(Graph_Data image, std::string image_name, uint32_t Graph_Operate, uint32_t Graph_Layer,
+void UI::Draw_Line(Graph_Data *image, std::string image_name, uint32_t Graph_Operate, uint32_t Graph_Layer,
                    uint32_t Graph_Color,
                    uint32_t Graph_Width, uint32_t Start_x, uint32_t Start_y, uint32_t End_x, uint32_t End_y) {
     for (int i = 0; i < 3 && image_name[i] != '\0'; i++)
-        image.graphic_name[2 - i] = image_name[i];
-    image.operate_tpye = Graph_Operate;
-    image.layer = Graph_Layer;
-    image.color = Graph_Color;
-    image.width = Graph_Width;
-    image.start_x = Start_x;
-    image.start_y = Start_y;
-    image.end_x = End_x;
-    image.end_y = End_y;
+        image->graphic_name[2 - i] = image_name[i];
+    image->operate_tpye = Graph_Operate;
+    image->layer = Graph_Layer;
+    image->color = Graph_Color;
+    image->width = Graph_Width;
+    image->start_x = Start_x;
+    image->start_y = Start_y;
+    image->end_x = End_x;
+    image->end_y = End_y;
 }
 
-/***All_ReFresh:刷新UI
+/***UI_ReFresh:刷新UI
  * 参数： cnt   图形个数
          ...   图形变量参数
 Tips：：该函数只能推送1，2，5，7个图形，其他数目协议未涉及*/
-int UI::All_ReFresh() {
+int UI::UI_ReFresh(Graph_Data imageData) {
     int i, n;
-    Graph_Data imageData;
     unsigned char *frame_point;                            //读写指针
     uint16_t frame_tail = 0xFFFF;                        //CRC16校验值
 
@@ -191,23 +190,23 @@ int UI::All_ReFresh() {
         frame_point++;
     }
 
-    for (auto item : UI_Graph_v) {
-        frame_point = (unsigned char *) &item;
-        frame_tail = Get_CRC16_Check_Sum_UI(frame_point, sizeof(item), frame_tail);             //CRC16校验
 
-        for (n = 0; n < sizeof(item); n++) {
-            UI_SendByte(*frame_point);
-            frame_point++;
-        }                                               //发送图片帧
+    frame_point = (unsigned char *) &imageData;
+    frame_tail = Get_CRC16_Check_Sum_UI(frame_point, sizeof(imageData), frame_tail);             //CRC16校验
 
-        frame_point = (unsigned char *) &frame_tail;
-        for (i = 0; i < sizeof(frame_tail); i++) {
-            UI_SendByte(*frame_point);
-            frame_point++;                                                  //发送CRC16校验值
-        }
+    for (n = 0; n < sizeof(imageData); n++) {
+        UI_SendByte(*frame_point);
+        frame_point++;
+    }                                               //发送图片帧
 
-        UI_Seq++;                                                         //包序号+1
+    frame_point = (unsigned char *) &frame_tail;
+    for (i = 0; i < sizeof(frame_tail); i++) {
+        UI_SendByte(*frame_point);
+        frame_point++;                                                  //发送CRC16校验值
     }
+
+    UI_Seq++;                                                         //包序号+1
+
     return 0;
 }
 
@@ -221,19 +220,19 @@ int UI::All_ReFresh() {
         Start_x、Start_x    圆心坐标
         Graph_Radius  图形半径*/
 void
-UI::Draw_Circle(Graph_Data image, std::string image_name, uint32_t Graph_Operate, uint32_t Graph_Layer,
+UI::Draw_Circle(Graph_Data *image, std::string image_name, uint32_t Graph_Operate, uint32_t Graph_Layer,
                 uint32_t Graph_Color,
                 uint32_t Graph_Width, uint32_t Start_x, uint32_t Start_y, uint32_t Graph_Radius) {
     for (int i = 0; i < 3 && image_name[i] != '\0'; i++)
-        image.graphic_name[2 - i] = image_name[i];
-    image.graphic_tpye = UI_Graph_Circle;
-    image.operate_tpye = Graph_Operate;
-    image.layer = Graph_Layer;
-    image.color = Graph_Color;
-    image.width = Graph_Width;
-    image.start_x = Start_x;
-    image.start_y = Start_y;
-    image.radius = Graph_Radius;
+        image->graphic_name[2 - i] = image_name[i];
+    image->graphic_tpye = UI_Graph_Circle;
+    image->operate_tpye = Graph_Operate;
+    image->layer = Graph_Layer;
+    image->color = Graph_Color;
+    image->width = Graph_Width;
+    image->start_x = Start_x;
+    image->start_y = Start_y;
+    image->radius = Graph_Radius;
 }
 
 /***Draw_Rectangle:绘制矩形
@@ -329,7 +328,7 @@ UI::Draw_Char(String_Data *image, const char *image_name, uint32_t Graph_Operate
 
 }
 
-/***All_ReFresh:刷新字符
+/***UI_ReFresh:刷新字符
  * 参数：String_Data string_Data
  * String_Data 对象*/
 int UI::String_ReFresh(String_Data string_Data) {
@@ -433,8 +432,8 @@ uint16_t Get_CRC16_Check_Sum_UI(uint8_t *pchMessage, uint32_t dwLength, uint16_t
     return wCRC;
 }
 
-void UI_Line::Draw() const {
-    Draw_Line(image, image_name, Operate, Layer, Color, Width, Start_x, Start_y, End_x, End_y);
+void UI_Line::Draw() {
+    Draw_Line(&image, image_name, Operate, Layer, Color, Width, Start_x, Start_y, End_x, End_y);
     Graph_Num++;
 }
 
@@ -443,11 +442,19 @@ void UI_Line::Delete() {
     Graph_Num--;
 }
 
+void UI_Line::Refresh() const {
+    UI_ReFresh(image);
+}
+
 void UI_Circle::Draw() {
-    Draw_Circle(image, image_name, Operate, Layer, Color, Width, Start_x, Start_y, Radius);
+    Draw_Circle(&image, image_name, Operate, Layer, Color, Width, Start_x, Start_y, Radius);
     Graph_Num++;
 }
 
 void UI_Circle::Delete() {
 
+}
+
+void UI_Circle::Refresh() const {
+    UI_ReFresh(image);
 }
