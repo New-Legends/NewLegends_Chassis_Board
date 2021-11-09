@@ -112,19 +112,10 @@ static std::vector<Graph_Data> UI_Graph_v;
 static std::vector<std::string> UI_ImageName_v;
 static int Graph_Num = 1;
 
-static uint8_t SENDER_ID = Robot_ID;
-static uint16_t RECEIVER_ID = referee::get_client_id();
 
 class UI : public referee {
 public:
-    UI() : referee() {
-        robot_id = SENDER_ID;
-        client_id = RECEIVER_ID;
-    };
-
-    explicit UI(uint16_t client_id_) { client_id = client_id_; };
-    uint8_t robot_id;
-    uint16_t client_id;//发送的客户端号
+    UI() : referee() {};
 
     void Delete_Graph(uint8_t Del_Operate, uint8_t Del_Layer);
 

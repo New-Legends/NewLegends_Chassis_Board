@@ -4,7 +4,7 @@
 
 #include "UI.h"
 
-
+extern referee Referee;
 extern UART_HandleTypeDef huart6;
 const unsigned char CRC8_TAB_UI[256] =
         {
@@ -84,7 +84,7 @@ void UI::Delete_Graph(uint8_t Del_Operate, uint8_t Del_Layer) {
     frame_head.CMD_ID = UI_CMD_Robo_Exchange;                   //填充包头数据
 
     data_head.Data_ID = UI_Data_ID_Del;
-    data_head.Sender_ID = Robot_ID;
+    data_head.Sender_ID = *Robot_ID;
     data_head.Receiver_ID = Robot_Client_ID;                          //填充操作数据
 
     del.Delete_Operate = Del_Operate;
@@ -171,7 +171,7 @@ int UI::UI_ReFresh(Graph_Data imageData) {
 
     data_head.Data_ID = UI_Data_ID_Draw1;
 
-    data_head.Sender_ID = SENDER_ID;
+    data_head.Sender_ID = *Referee.Robot_ID;
     data_head.Receiver_ID = RECEIVER_ID;                          //填充操作数据
 
     frame_point = (unsigned char *) &frame_head;
@@ -352,8 +352,8 @@ int UI::String_ReFresh(String_Data string_Data) {
 
     data_head.Data_ID = UI_Data_ID_DrawChar;
 
-    data_head.Sender_ID = Robot_ID;
-    data_head.Receiver_ID = Robot_Client_ID;                          //填充操作数据
+    data_head.Sender_ID = *Referee.Robot_ID;
+    data_head.Receiver_ID = RECEIVER_ID;                          //填充操作数据
 
     frame_point = (unsigned char *) &frame_head;
     frame_tail = Get_CRC16_Check_Sum_UI(frame_point, sizeof(frame_head), frame_tail);

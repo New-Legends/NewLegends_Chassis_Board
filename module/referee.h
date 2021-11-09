@@ -34,11 +34,7 @@ extern ext_rfid_status_t rfid_status_t;
 extern ext_dart_client_cmd_t dart_client_cmd;
 extern ext_student_interactive_data_t student_interactive_data_t;
 
-
-static uint8_t Robot_ID;
-static uint16_t Robot_Client_ID;
-static robot_camp Camp;
-
+static uint16_t RECEIVER_ID;
 class referee {
 public:
     const frame_header_struct_t *Receive_header = &referee_receive_header;//接受报文
@@ -67,9 +63,15 @@ public:
     const ext_dart_client_cmd_t *Dart_client_cmd = &dart_client_cmd;//飞镖发射架状态
     //const ext_student_interactive_data_t student_interactive_data_t;
 
-    [[nodiscard]] static robot_camp judge_camp();
 
-    [[nodiscard]] static uint16_t get_client_id();
+    uint8_t *Robot_ID;
+
+    uint16_t Robot_Client_ID;
+    robot_camp Camp;
+
+    [[nodiscard]] robot_camp judge_camp();
+
+    [[nodiscard]] uint16_t get_client_id();
 
     referee();
 };
