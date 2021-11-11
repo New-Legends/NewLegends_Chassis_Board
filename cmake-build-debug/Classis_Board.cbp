@@ -126,6 +126,12 @@
 		<Unit filename="E:/NewLegend_Chassis_Board/APP/CAN_receive.h">
 			<Option target="Classis_Board.elf"/>
 		</Unit>
+		<Unit filename="E:/NewLegend_Chassis_Board/APP/SuperCap_task.cpp">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
+		<Unit filename="E:/NewLegend_Chassis_Board/APP/SuperCap_task.h">
+			<Option target="Classis_Board.elf"/>
+		</Unit>
 		<Unit filename="E:/NewLegend_Chassis_Board/APP/System_Config.cpp">
 			<Option target="Classis_Board.elf"/>
 		</Unit>

@@ -144,6 +144,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "E:/NewLegend_Chassis_Board/APP/CAN_receive.cpp" "E:/NewLegend_Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/APP/CAN_receive.cpp.obj"
+  "E:/NewLegend_Chassis_Board/APP/SuperCap_task.cpp" "E:/NewLegend_Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/APP/SuperCap_task.cpp.obj"
   "E:/NewLegend_Chassis_Board/APP/System_Config.cpp" "E:/NewLegend_Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/APP/System_Config.cpp.obj"
   "E:/NewLegend_Chassis_Board/APP/UI_task.cpp" "E:/NewLegend_Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj"
   "E:/NewLegend_Chassis_Board/APP/chassis_task.cpp" "E:/NewLegend_Chassis_Board/cmake-build-debug/CMakeFiles/Classis_Board.elf.dir/APP/chassis_task.cpp.obj"

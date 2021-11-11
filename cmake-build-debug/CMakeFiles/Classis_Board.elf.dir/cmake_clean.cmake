@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Classis_Board.elf.dir/APP/CAN_receive.cpp.obj"
+  "CMakeFiles/Classis_Board.elf.dir/APP/SuperCap_task.cpp.obj"
   "CMakeFiles/Classis_Board.elf.dir/APP/System_Config.cpp.obj"
   "CMakeFiles/Classis_Board.elf.dir/APP/UI_task.cpp.obj"
   "CMakeFiles/Classis_Board.elf.dir/APP/chassis_task.cpp.obj"

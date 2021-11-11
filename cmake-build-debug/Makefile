@@ -168,6 +168,33 @@ APP/CAN_receive.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/APP/CAN_receive.cpp.s
 .PHONY : APP/CAN_receive.cpp.s
 
+APP/SuperCap_task.obj: APP/SuperCap_task.cpp.obj
+
+.PHONY : APP/SuperCap_task.obj
+
+# target to build an object file
+APP/SuperCap_task.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/APP/SuperCap_task.cpp.obj
+.PHONY : APP/SuperCap_task.cpp.obj
+
+APP/SuperCap_task.i: APP/SuperCap_task.cpp.i
+
+.PHONY : APP/SuperCap_task.i
+
+# target to preprocess a source file
+APP/SuperCap_task.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/APP/SuperCap_task.cpp.i
+.PHONY : APP/SuperCap_task.cpp.i
+
+APP/SuperCap_task.s: APP/SuperCap_task.cpp.s
+
+.PHONY : APP/SuperCap_task.s
+
+# target to generate assembly for a file
+APP/SuperCap_task.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Classis_Board.elf.dir\build.make CMakeFiles/Classis_Board.elf.dir/APP/SuperCap_task.cpp.s
+.PHONY : APP/SuperCap_task.cpp.s
+
 APP/System_Config.obj: APP/System_Config.cpp.obj
 
 .PHONY : APP/System_Config.obj
@@ -2619,6 +2646,9 @@ help:
 	@echo ... APP/CAN_receive.obj
 	@echo ... APP/CAN_receive.i
 	@echo ... APP/CAN_receive.s
+	@echo ... APP/SuperCap_task.obj
+	@echo ... APP/SuperCap_task.i
+	@echo ... APP/SuperCap_task.s
 	@echo ... APP/System_Config.obj
 	@echo ... APP/System_Config.i
 	@echo ... APP/System_Config.s

@@ -5,8 +5,8 @@
 #include "System_Config.h"
 #include "chassis_task.h"
 #include "task.h"
-#include "referee_task.h"
 #include "UI_task.h"
+#include "SuperCap_task.h"
 
 
 #define Tiny_Stack_Size       64
@@ -25,6 +25,7 @@
 
 TaskHandle_t Chassis_Task_Handle;
 TaskHandle_t UI_Task_Handle;
+TaskHandle_t SuperCap_Task_Handle;
 
 
 /**
@@ -36,4 +37,5 @@ void Task_start(void) {
     /* Applications Init ----------------*/
     xTaskCreate(chassis_task, "chassis_task", Normal_Stack_Size, nullptr, PriorityAboveNormal, &Chassis_Task_Handle);
     xTaskCreate(UI_task, "UI_task", Large_Stack_Size, nullptr, PriorityNormal, &UI_Task_Handle);
+    xTaskCreate(SuperCap_task, "SuperCap_task", Normal_Stack_Size, nullptr, PriorityNormal, &SuperCap_Task_Handle);
 }

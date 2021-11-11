@@ -131,7 +131,7 @@ typedef enum {
 } chassis_behaviour_e;
 #define CHASSIS_OPEN_RC_SCALE 10 //在chassis_open 模型下，遥控器乘以该比例发送到can上
 #ifdef __cplusplus
-extern CAN_receive CAN_chassis;
+extern CAN_receive CAN_1;
 
 class M_Chassis {
 public:
@@ -169,7 +169,7 @@ public:
     fp32 chassis_pitch; //陀螺仪和云台电机叠加的pitch角度
     fp32 chassis_roll;  //陀螺仪和云台电机叠加的roll角度
 
-    CAN_receive *Chassis_Can = &CAN_chassis;
+    CAN_receive *Chassis_Can = &CAN_1;
 
     void init();
 
