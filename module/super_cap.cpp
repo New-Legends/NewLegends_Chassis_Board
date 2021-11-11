@@ -36,6 +36,6 @@ void SuperCap::CAN1_Cap_Send(uint16_t temPower) {
     HAL_CAN_AddTxMessage(&hcan1, &cap_tx_message, cap_can_send_data, &send_mail_box);
 }
 
-void SuperCap::Init(void) {
+void SuperCap::Init() {
     CAN1_Cap_Send(7500);
 }
