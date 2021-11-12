@@ -23,7 +23,7 @@ void chassis_task(void *pvParameters) {
         chassis.pid_calc();
         chassis.power_ctrl();
         chassis.go();
-        vTaskDelay(CHASSIS_CONTROL_TIME_MS);
+        //vTaskDelay(1);
     }
 
 }
