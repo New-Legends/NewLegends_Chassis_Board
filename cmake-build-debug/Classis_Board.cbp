@@ -11,10 +11,10 @@
 				<Option working_dir="E:/NewLegend_Chassis_Board/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Classis_Board.elf">
@@ -52,10 +52,10 @@
 					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 Classis_Board.elf"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 Classis_Board.elf"/>
+					<CompileFile command="D:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Classis_Board.elf/fast">
@@ -93,30 +93,30 @@
 					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 Classis_Board.elf/fast"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 Classis_Board.elf/fast"/>
+					<CompileFile command="D:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="E:/NewLegend_Chassis_Board/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="E:/NewLegend_Chassis_Board/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/QT/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;E:/NewLegend_Chassis_Board/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>

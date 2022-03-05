@@ -129,7 +129,7 @@ CMAKE_INSTALL_PREFIX:PATH=D:/Program Files (x86)/Classis_Board
 CMAKE_LINKER:FILEPATH=D:/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-ld.exe
 
 //Path to a program.
-CMAKE_MAKE_PROGRAM:FILEPATH=D:/mingw64/bin/mingw32-make.exe
+CMAKE_MAKE_PROGRAM:FILEPATH=D:/QT/Tools/mingw810_64/bin/mingw32-make.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.

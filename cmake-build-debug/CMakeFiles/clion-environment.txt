@@ -1,4 +1,4 @@
-ToolSet: w64 6.0 (local)@D:\mingw64
+ToolSet: w64 6.0 (local)@D:\QT\Tools\mingw810_64
 Options: 
 
 Options:
